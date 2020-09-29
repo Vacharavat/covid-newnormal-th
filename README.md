@@ -1,5 +1,6 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
+***Note :*** แต่ละ Folder ไม่มีตัว note_module 
 ### Reference
 - API COVID-19 THAILAND
     - https://covid19.ddc.moph.go.th/en/api
