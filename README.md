@@ -1,5 +1,18 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
+### UI Covid App
+- https://6r3bfg.axshare.com
+### PHASE 1 (4 OCT 2020)
+- หน้าจอหลัก
+- เบอร์โทรติดต่อฉุกเฉิน
+- วิธีป้องกันตัวเองเบื้องต้น
+
+| MEMBER | TASK | FOLDER GITHUB |
+| ----------- | ----------- | ----------- |
+| SEEN      | Title       | Seen/1 |
+| FOURTH   | Text        | Fourth/1 |
+| JAY   | Text        | Jay/1 |
+
 ***Note :*** แต่ละ Folder ไม่มีตัว note_module 
 ### Reference
 - API COVID-19 THAILAND
