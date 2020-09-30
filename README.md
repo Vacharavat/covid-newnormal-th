@@ -4,7 +4,7 @@
 - https://6r3bfg.axshare.com
 ### Background
 - Dark Mode
-- Black (background color)
+- rgb(28,28,30) (background color)
 - https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/color/ (IOS COLOR)
 ### PHASE 1 (4 OCT 2020)
 ทำลักษณะเบื้องต้นก่อนอาจใช้ loop แล้วค่อยคิดวิธีทำให้สวยงามอีกที
