@@ -11,13 +11,13 @@
 
 - หน้าจอหลัก
 - เบอร์โทรติดต่อฉุกเฉิน
-- วิธีป้องกันตัวเองเบื้องต้น
+- วิธีเช็คตัวเองเบื้องต้น
 
 | MEMBER | TASK | FOLDER GITHUB |
 | ----------- | ----------- | ----------- |
-| SEEN      | Title       | Seen/1 |
-| FOURTH   | Text        | Fourth/1 |
-| JAY   | Text        | Jay/1 |
+| SEEN      | เบอร์โทรติดต่อฉุกเฉิน | Seen/1 |
+| FOURTH   | หน้าจอหลัก | Fourth/1 |
+| JAY   | วิธีเช็คตัวเองเบื้องต้น | Jay/1 |
 
 ***Note :*** แต่ละ Folder ไม่มีตัว note_module 
 ### Reference
