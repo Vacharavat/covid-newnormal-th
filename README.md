@@ -1,10 +1,9 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
 ### UI Covid App
-- https://6r3bfg.axshare.com
+- https://x7x7x8.axshare.com
 ### Background
-- Dark Mode
-- rgb(28,28,30) (background color)
+- https://www.behance.net/gallery/96012755/Coronavirus-Mobile-App-UIUX-Design?tracking_source=search_projects_recommended%7Cui%20coronavirus&fbclid=IwAR3NOvVVusJMDfIb5gSqCP1vuIERs7qFxYfo-WpQD8UpuyD15riHsx54quk
 - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ (IOS COLOR)
 ### PHASE 1 (4 OCT 2020)
 ทำลักษณะเบื้องต้นก่อนอาจใช้ loop แล้วค่อยคิดวิธีทำให้สวยงามอีกที
