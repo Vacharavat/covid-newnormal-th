@@ -18,6 +18,8 @@
 | JAY   | วิธีเช็คตัวเองเบื้องต้น | Jay/1 |
 
 ***Note :*** แต่ละ Folder ไม่มีตัว note_module 
+### Google Drive
+- https://drive.google.com/drive/folders/19fjpLfmm55TtXsiV9Ex56YwJNA12GHlo?usp=sharing
 ### Reference
 - API COVID-19 THAILAND
     - https://covid19.ddc.moph.go.th/en/api
