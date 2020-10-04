@@ -4,18 +4,13 @@
 - https://x7x7x8.axshare.com
 ### Background
 - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ (IOS COLOR)
-### PHASE 1 (4 OCT 2020)
-ทำลักษณะเบื้องต้นก่อนอาจใช้ loop แล้วค่อยคิดวิธีทำให้สวยงามอีกที
-
-- หน้าจอหลัก
-- เบอร์โทรติดต่อฉุกเฉิน
-- วิธีเช็คตัวเองเบื้องต้น
+### PHASE 1 (11 OCT 2020)
 
 | MEMBER | TASK | FOLDER GITHUB |
 | ----------- | ----------- | ----------- |
-| SEEN      | เบอร์โทรติดต่อฉุกเฉิน | Seen/1 |
-| FOURTH   | หน้าจอหลัก | Fourth/1 |
-| JAY   | วิธีเช็คตัวเองเบื้องต้น | Jay/1 |
+| SEEN      | Symptomps Page | Seen/1 |
+| FOURTH   | Covid Page | Fourth/1 |
+| JAY   | Proventions Page | Jay/1 |
 
 ***Note :*** แต่ละ Folder ไม่มีตัว note_module 
 ### Google Drive
