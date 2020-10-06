@@ -22,10 +22,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#b7b7ff',
   },
   bg: {
-    flex: 0.25,
+    paddingTop:20,
+    flex: 0.3,
     backgroundColor: '#436bfc',
     borderBottomLeftRadius:30,
     borderBottomRightRadius:30,
     justifyContent:'center',
-  }
+  },
 });
