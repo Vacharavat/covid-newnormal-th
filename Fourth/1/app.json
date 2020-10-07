@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CovidApp",
-    "slug": "CovidApp",
+    "name": "BasicUI",
+    "slug": "BasicUI",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
