@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
+
 import { CustomHeader, CustonDrawerContent} from './src';
 import {HomeScreen, HomeScreenDetail, MapsScreen, MapsScreenDetail, NewNormalScreen,
   NewNormalScreenDetail, InfoScreen, InfoScreenDetail} from './src/tab'

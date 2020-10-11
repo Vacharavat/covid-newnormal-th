@@ -13,5 +13,15 @@ const IMAGE = {
 
     ICON_INFO : require('../image/info2.png'),
     ICON_INFO2 : require('../image/info.png'),
+
+    IMAGE_COVIDDETAIL : require('../image/covid19detail.png'),
+
+    IMAGE_ORIGIN : require('../image/origin.png'),
+    IMAGE_ORIGIN1 : require('../image/origin1.jpg'),
+    IMAGE_ORIGIN2 : require('../image/origin2.jpg'),
+    IMAGE_ORIGIN3 : require('../image/origin3.png'),
+    IMAGE_ORIGIN4 : require('../image/origin4.jpg'),
+
+    IMAGE_EVENT : require('../image/event.jpg'),
 }
 export {IMAGE}
