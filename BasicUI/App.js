@@ -1,32 +1,33 @@
 import * as React from 'react';
-import { Text, View, SafeAreaView,Image, TouchableOpacity, ScrollView } from 'react-native';
+import { Image } from 'react-native';
+
 import { NavigationContainer } from '@react-navigation/native';
+
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 //import { SafeAreaView } from 'react-native-safe-area-context';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-
 import { CustomHeader, CustonDrawerContent} from './src';
+
 import {HomeScreen, HomeScreenDetail, MapsScreen, MapsScreenDetail, NewNormalScreen,
   NewNormalScreenDetail, InfoScreen, InfoScreenDetail} from './src/tab'
+
 import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, TransCoviddetailScreen,LookCoviddetailScreen,
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
   EffectCoviddetailScreen} from './src/drawer';
 
 import {IMAGE} from './src/constants/image';
 
-
-
+// Bottom
 const Tab = createBottomTabNavigator();
 
 const navOptionHandler = () => ({
   headerShown : false
 })
 
+// HOME
 const StackHome = createStackNavigator();
-
-
 function HomeStack(){
   return(
     <StackHome.Navigator initialRouteName="Home">
@@ -36,6 +37,7 @@ function HomeStack(){
   );
 }
 
+// MAPS
 const StackMaps = createStackNavigator();
 function MapsStack(){
   return(
@@ -46,6 +48,7 @@ function MapsStack(){
   );
 }
 
+// NEW NORMAL
 const StackNewNormal = createStackNavigator();
 function NewNormalStack(){
   return(
@@ -55,6 +58,8 @@ function NewNormalStack(){
     </StackNewNormal.Navigator>
   );
 }
+
+// INFO
 const StackInfo = createStackNavigator();
 function InfoStack(){
   return(
@@ -64,6 +69,8 @@ function InfoStack(){
     </StackInfo.Navigator>
   );
 }
+
+// Function Tab 
 function TabNavigator(){
   return(
     <Tab.Navigator
@@ -107,8 +114,9 @@ function TabNavigator(){
       </Tab.Navigator>
   );
 }
-const Drawer = createDrawerNavigator();
 
+// Drawer
+const Drawer = createDrawerNavigator();
 function DrawerNavigator({navigation}){
   return(
     <Drawer.Navigator initialRouteName="MenuTab" 
@@ -129,8 +137,10 @@ function DrawerNavigator({navigation}){
   );
 }
 
-const StackApp = createStackNavigator();
 
+
+// RETURM
+const StackApp = createStackNavigator();
 export default function App() {
   return (
     
