@@ -1,28 +1,29 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, TouchableOpacity, SafeAreaView, ScrollView, Image} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity, SafeAreaView, ScrollView, Image, Dimensions} from 'react-native';
 import {CustomHeader} from '../index';
 import Color from '../constants/colors';
 import {IMAGE} from '../constants/image';
-import { color } from 'react-native-reanimated';
+//import { color } from 'react-native-reanimated';
 // import {FlatList, ScrollView} from 'react-native-gesture-handler';
 
 export class HomeScreen extends Component {
   render() {
     return (
+      <ScrollView>
       <SafeAreaView style={{flex: 1 , backgroundColor:Color.primary}}>
         <CustomHeader title="Home" isHome={true} navigation={this.props.navigation}/>
         
         {/* Background Color */}
         <View style={{ flex: 1, backgroundColor: Color.secondary,}}>
-        
+
         {/* Top Page */}
           <View style={styles.topblock}>
-            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15, top:-15}}>WELCOME TO</Text>
-            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15, fontSize:23, top:-15}}>COVID-19</Text>
-            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15, fontSize:25, top:-15}}>STATISTICS</Text>
+            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15}}>WELCOME TO</Text>
+            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15, fontSize:23,}}>COVID-19</Text>
+            <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15, fontSize:25,}}>STATISTICS</Text>
             
             {/* Block and More */}
-            <View style={{flexDirection:'row', flex:0.3, justifyContent:'center', top:-15}}>
+            <View style={{flexDirection:'row', flex:0.3, justifyContent:'center',}}>
               <View style={{flex: 1.5}}>
                 <Text style={{ color:Color.white, fontWeight:'bold', paddingLeft:15, paddingTop:5, fontSize:11,}}>Update 2020-10-04</Text>
               </View>
@@ -77,16 +78,16 @@ export class HomeScreen extends Component {
           {/* Symptomps block */}
           <View style={styles.symtompsblock}>
             {/* Block and More */}
-            <View style={{flexDirection:'row', flex:0.7, top:-13, justifyContent:'center',}}>
+            <View style={{flexDirection:'row', flex:1, justifyContent:'center',}}>
               {/* Name */}
-              <View style={{flex: 1.5}}>
+              <View style={{flex: 2}}>
                 <Text style={styles.headtitle}>Symptomps</Text>
               </View>
               {/* Blank Block */}
-              <View style={{flex: 2}} />
+              <View style={{flex: 7}} />
               {/* Button */}
-              <View style={{flex: 1}}>
-                <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('HomeDetail')}>
+              <View style={{flex: 2}}>
+                <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('SymptompsScreenDetail')}>
                   <Text style={styles.buttonmore}>More</Text>
                 </TouchableOpacity>
               </View>
@@ -100,7 +101,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS1} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Fever</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -108,7 +109,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS3} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Cough</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -116,7 +117,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS2} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Tired</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -124,7 +125,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS4} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Sore Throat</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -132,7 +133,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS6} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Runny Nose</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -140,7 +141,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS5} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Ache</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -148,7 +149,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS8} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Diarrhea</Text>
                     </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -156,7 +157,7 @@ export class HomeScreen extends Component {
                       <Image style={styles.imagedetail} source={IMAGE.IMAGE_SYMPTOMPS7} resizeMode='contain'/>
                     </View>
                     <View style={styles.subimageblock}>
-                      <Text style={styles.subimagetext}>text</Text>
+                      <Text style={styles.subimagetext}>Blood-Thinged{"\n"} Soutem</Text>
                     </View>
                 </View>
               </View>
@@ -166,15 +167,15 @@ export class HomeScreen extends Component {
 
           {/* Preventions block */}
           <View style={styles.preventionsblock}>
-            <View style={{flexDirection:'row', flex:0.7, top:-13, justifyContent:'center',}}>
+            <View style={{flexDirection:'row', flex:2, justifyContent:'center',}}>
               <View style={{flex: 1.5}}>
                 <Text style={styles.headtitle}>Preventions</Text>
               </View>
               {/* Blank Block */}
-              <View style={{flex: 2}}/>
+              <View style={{flex: 7}}/>
               {/* Button */}
               <View style={{flex: 1}}>
-                <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('Preventions')}>
+                <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('PreventionsScreenDetail')}>
                   <Text style={styles.buttonmore}>More</Text>
                 </TouchableOpacity>
               </View>
@@ -244,28 +245,32 @@ export class HomeScreen extends Component {
             </ScrollView>
 
           </View>
+
         </View>
       </SafeAreaView>
+      </ScrollView>
     );
   }
 }
 
-
+const { width, height } = Dimensions.get('window')
 
 const styles = StyleSheet.create({
   //{/* Background Color */}
   topblock: {
-    flex: 0.35,
+    flex: 0.5,
     backgroundColor: Color.primary,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
     justifyContent: 'center',
+    //backgroundColor:'red'
   },
   //{/* Statistic block1 */}
   bigstatblock: {
-    top: -30,
+   // top: -30,
     flexDirection: 'row',
     justifyContent: 'center',
+    //backgroundColor:'yellow'
   },
   //{/* Substatistic block1 */}
   statblock: {
@@ -274,6 +279,7 @@ const styles = StyleSheet.create({
     height: 100,
     margin: 7,
     borderRadius: 10,
+    //backgroundColor:'green'
   },
   // Text Stat
   txtstats:{
@@ -281,6 +287,7 @@ const styles = StyleSheet.create({
     color:Color.gray, 
     fontWeight:'bold', 
     paddingLeft:8,
+   // backgroundColor:'pink'
   },
   // Subtext Stat
   subtxtstats:{
@@ -291,11 +298,13 @@ const styles = StyleSheet.create({
   },
   //Symtompblock
   symtompsblock: {
-    flex: 0.43,
+    flex: 1,
+    backgroundColor:'blue'
   },
   //Preventblock
   preventionsblock: {
-    flex: 0.43,
+    flex: 1,
+    backgroundColor:'purple'
   },
   //Block preventions, symtomp details
   subdetail: {
@@ -304,7 +313,9 @@ const styles = StyleSheet.create({
     height: 100,
     margin: 8,
     borderRadius: 10,
-    flex:1
+    flex:1,
+    //backgroundColor:'red',
+    top:10
   },
   // Title Name : Systomps && Prevention
   headtitle:{

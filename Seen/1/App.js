@@ -11,7 +11,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { CustomHeader, CustonDrawerContent} from './src';
 
 import {HomeScreen, HomeScreenDetail, MapsScreen, MapsScreenDetail, NewNormalScreen,
-  NewNormalScreenDetail, InfoScreen, InfoScreenDetail, PreventionsDetails} from './src/tab'
+  NewNormalScreenDetail, NewNormal1, NewNormal2, NewNormal3, InfoScreen, InfoScreenDetail, PreventionsDetails} from './src/tab'
 
 import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, TransCoviddetailScreen,LookCoviddetailScreen,
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
@@ -56,6 +56,9 @@ function NewNormalStack(){
     <StackNewNormal.Navigator initialRouteName="New Normal">
       <StackNewNormal.Screen name="NewNormal" component= {NewNormalScreen} options={navOptionHandler}/>
       <StackNewNormal.Screen name="NewNormalDetail" component= {NewNormalScreenDetail} options={navOptionHandler}/>
+      <StackNewNormal.Screen name="NewNormal1" component= {NewNormal1} options={navOptionHandler}/>
+      <StackNewNormal.Screen name="NewNormal2" component= {NewNormal2} options={navOptionHandler}/>
+      <StackNewNormal.Screen name="NewNormal3" component= {NewNormal3} options={navOptionHandler}/>
     </StackNewNormal.Navigator>
   );
 }
