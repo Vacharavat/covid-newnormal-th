@@ -12,6 +12,7 @@ import {CustomHeader} from '../index';
 import Color from '../constants/colors';
 import {IMAGE} from '../constants/image';
 
+
 export class OriginCoviddetailScreen extends Component {
   render() {
     return (
@@ -143,7 +144,7 @@ export class OriginCoviddetailScreen extends Component {
 const styles = StyleSheet.create({
   box: {
     flex: 1,
-    backgroundColor: 'rgb(242,242,247)',
+    //backgroundColor: 'rgb(242,242,247)',
     width: 374,
     height: '90%',
     //margin:10,
@@ -155,7 +156,7 @@ const styles = StyleSheet.create({
   boximage: {
     width: '100%',
     flex: 0.4,
-    backgroundColor: 'skyblue',
+    //backgroundColor: 'skyblue',
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
   },

@@ -3,18 +3,44 @@ import {StyleSheet, Text, View, TouchableOpacity, SafeAreaView, ScrollView, Imag
 import {CustomHeader} from '../index';
 import Color from '../constants/colors';
 import {IMAGE} from '../constants/image';
-//import { color } from 'react-native-reanimated';
-// import {FlatList, ScrollView} from 'react-native-gesture-handler';
+import axios from 'axios';
 
 export class HomeScreen extends Component {
+  
+  state = {
+    confirmed : '0',
+    recovered : '0',
+    hospitalized : '0',
+    death :'0',
+    newconfirmed:'0',
+    newrecovered:'0',
+    newhospitalized:'0',
+    newdeath:'0',
+    date :'0'
+  }
+
+  componentDidMount(){
+    axios.get('https://covid19.th-stat.com/api/open/today')
+      .then((res) => this.setState({
+        confirmed: res.data.Confirmed,
+        recovered: res.data.Recovered,
+        hospitalized : res.data.Hospitalized,
+        death : res.data.Deaths,
+        newconfirmed : res.data.NewConfirmed,
+        newrecovered : res.data.NewRecovered,
+        newhospitalized : res.data.NewHospitalized,
+        newdeath : res.data.NewDeaths,
+        date : res.data.UpdateDate
+      }))
+      .catch((er) => console.log(er.messagge))
+  }
   render() {
     return (
       <SafeAreaView style={{flex: 1 , backgroundColor:Color.primary}}>
         <CustomHeader title="Home" isHome={true} navigation={this.props.navigation}/>
-        
+        <View style={{flex:1,backgroundColor: Color.secondary,}}>
+        <ScrollView>
         {/* Background Color */}
-        <View style={{ flex: 1, backgroundColor: Color.secondary,}}>
-
         {/* Top Page */}
           <View style={styles.topblock}>
             <Text style={{color:Color.white, fontWeight:'bold', paddingLeft:15}}>WELCOME TO</Text>
@@ -23,13 +49,9 @@ export class HomeScreen extends Component {
             
             {/* Block and More */}
             <View style={{flexDirection:'row', flex:0.3, justifyContent:'center',}}>
-              <View style={{flex: 1.5}}>
-                <Text style={{ color:Color.white, fontWeight:'bold', paddingLeft:15, paddingTop:5, fontSize:11,}}>Update 2020-10-04</Text>
+              <View style={{flex: 3.5}}>
+                <Text style={{ color:Color.white, fontWeight:'bold', paddingLeft:15, paddingTop:5, fontSize:11,}}>Update : {this.state.date}</Text>
               </View>
-
-              {/* Blank block */}
-              <View style={{flex: 2}}/> 
-
               {/* Button More */}
               <View style={{flex: 1}}>
                 <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('HomeDetail')}>
@@ -38,21 +60,20 @@ export class HomeScreen extends Component {
               </View>
             </View>
           </View>
-
           {/* Statistic block1 */}
           <View style={styles.bigstatblock}>
             {/* Comfirm Block */}
             <View style={styles.statblock}>
               <Text style={{color:Color.gray, fontWeight:'bold', padding:8}}>Confirmed</Text>
-              <Text style={styles.txtstats}>3427</Text>
-              <Text style={styles.subtxtstats}>(+5)</Text>
+              <Text style={styles.txtstats}>{this.state.confirmed}</Text>
+              <Text style={styles.subtxtstats}>(+{this.state.newconfirmed})</Text>
             </View>
 
             {/* Recovered Block */}
             <View style={styles.statblock}>
               <Text style={{color:Color.green, fontWeight:'bold', padding:8}}>Recovered</Text>
-              <Text style={styles.txtstats}>3227</Text>
-              <Text style={styles.subtxtstats}>(+5)</Text>
+              <Text style={styles.txtstats}>{this.state.recovered}</Text>
+              <Text style={styles.subtxtstats}>(+{this.state.newrecovered})</Text>
             </View>
           </View>
 
@@ -62,15 +83,15 @@ export class HomeScreen extends Component {
             {/* Hopitalized Block */}
             <View style={styles.statblock}>
               <Text style={{color:Color.skyblue, fontWeight:'bold', padding:8}}>Hospitalized</Text>
-              <Text style={styles.txtstats}>92</Text>
-              <Text style={styles.subtxtstats}>(+5)</Text>
+              <Text style={styles.txtstats}>{this.state.hospitalized}</Text>
+              <Text style={styles.subtxtstats}>(+{this.state.newhospitalized})</Text>
             </View>
 
             {/* Deaths Block */}
             <View style={styles.statblock}>
               <Text style={{color:Color.red, fontWeight:'bold', padding:8}}>Deaths</Text>
-              <Text style={styles.txtstats}>58</Text>
-              <Text style={styles.subtxtstats}>(+5)</Text>
+              <Text style={styles.txtstats}>{this.state.death}</Text>
+              <Text style={styles.subtxtstats}>(+{this.state.newdeath})</Text>
             </View>
           </View>
 
@@ -79,11 +100,10 @@ export class HomeScreen extends Component {
             {/* Block and More */}
             <View style={{flexDirection:'row', flex:0.7, justifyContent:'center',}}>
               {/* Name */}
-              <View style={{flex: 1.5}}>
+              <View style={{flex: 3.5}}>
                 <Text style={styles.headtitle}>Symptomps</Text>
               </View>
-              {/* Blank Block */}
-              <View style={{flex: 2}} />
+              
               {/* Button */}
               <View style={{flex: 1}}>
                 <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('SymptompsScreenDetail')}>
@@ -167,11 +187,10 @@ export class HomeScreen extends Component {
           {/* Preventions block */}
           <View style={styles.preventionsblock}>
             <View style={{flexDirection:'row', flex:0.7, justifyContent:'center',}}>
-              <View style={{flex: 1.5}}>
+              <View style={{flex: 3.5}}>
                 <Text style={styles.headtitle}>Preventions</Text>
               </View>
-              {/* Blank Block */}
-              <View style={{flex: 2}}/>
+              
               {/* Button */}
               <View style={{flex: 1}}>
                 <TouchableOpacity style={{paddingLeft:10}} onPress={() => this.props.navigation.navigate('PreventionsScreenDetail')}>
@@ -196,7 +215,7 @@ export class HomeScreen extends Component {
                     <Image style={styles.imagedetail} source={IMAGE.IMAGE_PREVENTION3} resizeMode='contain'/>
                   </View>
                   <View style={styles.subimageblock}>
-                    <Text style={styles.subimagetext}>Alchol Gel</Text>
+                    <Text style={styles.subimagetext}>Alcohol Gel</Text>
                   </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -205,14 +224,6 @@ export class HomeScreen extends Component {
                   </View>
                   <View style={styles.subimageblock}>
                     <Text style={styles.subimagetext}>Social Distance</Text>
-                  </View>
-                </View>
-                <View style={styles.subdetail}>
-                  <View style={styles.imageblock}>
-                    <Image style={styles.imagedetail} source={IMAGE.IMAGE_PREVENTION1} resizeMode='contain'/>
-                  </View>
-                  <View style={styles.subimageblock}>
-                    <Text style={styles.subimagetext}>Safetysuits</Text>
                   </View>
                 </View>
                 <View style={styles.subdetail}>
@@ -245,7 +256,9 @@ export class HomeScreen extends Component {
 
           </View>
 
-        </View>
+        
+        </ScrollView>
+       </View>
       </SafeAreaView>
     );
   }
@@ -256,12 +269,14 @@ export class HomeScreen extends Component {
 const styles = StyleSheet.create({
   //{/* Background Color */}
   topblock: {
-    flex: 0.35,
+    // flex: ,
+    height:130,
     backgroundColor: Color.primary,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
     justifyContent: 'center',
     //backgroundColor:'red'
+
   },
   //{/* Statistic block1 */}
   bigstatblock: {
@@ -272,12 +287,14 @@ const styles = StyleSheet.create({
   },
   //{/* Substatistic block1 */}
   statblock: {
+    flex:1,
     backgroundColor: 'white',
     width: '43%',
     height: 100,
     margin: 7,
     borderRadius: 10,
-    //backgroundColor:'green'
+    //backgroundColor:'green',
+    
   },
   // Text Stat
   txtstats:{
@@ -297,12 +314,14 @@ const styles = StyleSheet.create({
   //Symtompblock
   symtompsblock: {
     flex: 0.5,
-    backgroundColor:'blue'
+    //backgroundColor:'blue',
+    paddingTop:10
   },
   //Preventblock
   preventionsblock: {
     flex: 0.5,
-    backgroundColor:'purple'
+   // backgroundColor:'purple',
+    paddingTop:10
   },
   //Block preventions, symtomp details
   subdetail: {

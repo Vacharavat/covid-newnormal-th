@@ -1,5 +1,7 @@
 export * from './HomeScreen'
 export * from './HomeScreenDetail'
+export * from './SymptompsScreenDetail'
+export * from './PreventionsScreenDetail'
 
 export * from './MapsScreen'
 export * from './MapsScreenDetail'

@@ -11,7 +11,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { CustomHeader, CustonDrawerContent} from './src';
 
 import {HomeScreen, HomeScreenDetail, MapsScreen, MapsScreenDetail, NewNormalScreen,
-  NewNormalScreenDetail, InfoScreen, InfoScreenDetail} from './src/tab'
+  NewNormalScreenDetail, InfoScreen, InfoScreenDetail , SymptompsScreenDetail, PreventionsScreenDetail} from './src/tab'
 
 import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, TransCoviddetailScreen,LookCoviddetailScreen,
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
@@ -33,6 +33,8 @@ function HomeStack(){
     <StackHome.Navigator initialRouteName="Home">
       <StackHome.Screen name="Home" component= {HomeScreen} options={navOptionHandler}/>
       <StackHome.Screen name="HomeDetail" component= {HomeScreenDetail} options={navOptionHandler}/>
+      <StackHome.Screen name="SymptompsScreenDetail" component= {SymptompsScreenDetail} options={navOptionHandler}/>
+      <StackHome.Screen name="PreventionsScreenDetail" component= {PreventionsScreenDetail} options={navOptionHandler}/>
     </StackHome.Navigator>
   );
 }

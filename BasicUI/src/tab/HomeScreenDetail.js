@@ -1,17 +1,65 @@
-import React, { Component } from 'react';
-import { Text, View, SafeAreaView,Image, TouchableOpacity, ScrollView } from 'react-native';
-import { CustomHeader } from '../index'
+import React, { Component } from "react";
+import {
+  Text,
+  View,
+  SafeAreaView,
+  FlatList
+} from "react-native";
+import { CustomHeader } from "../index";
+import Color from "../constants/colors";
+import axios from "axios";
+import { Card } from 'react-native-elements'
+import { Entypo } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
+
+export class HomeScreenDetail extends Component {
+  state = {
+    data: [],
+  };
+  componentDidMount() {
+    axios
+      .get("https://covid19.th-stat.com/api/open/cases")
+      .then((res) => {
+        this.setState({
+          data: res.data.Data,
+        });
+      })
+      .catch((er) => console.log(er.messagge));
+  }
 
 
-export class HomeScreenDetail extends Component{
-    render(){
-        return (
-            <SafeAreaView style={{ flex: 1}}>
-              <CustomHeader title='HomeDetail' navigation={this.props.navigation}/>
-              <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Home Detail</Text>
-              </View>
-            </SafeAreaView>
-          );
-    }
+  renderCase = (casedata) => {
+    return(
+      
+      <View>
+        <Card>
+                    <Card.Title>Case : {casedata.item.No}</Card.Title>
+                    <Card.Divider/>
+                    <Text><Entypo name="calendar" size={20} color={Color.red} /> วันที่ตรวจพบ : {casedata.item.ConfirmDate}</Text>
+                    <Text><MaterialCommunityIcons name="gender-male-female" size={20} color={Color.skyblue} /> เพศ : {casedata.item.Gender}</Text>
+                    <Text><Ionicons name="md-people" size={20} color="black" />  สัญชาติ : {casedata.item.Nation}</Text>
+                    <Text><FontAwesome name="map-pin" size={20} color={Color.gray} />   สถานที่ : {casedata.item.District} {casedata.item.Province} </Text>
+                </Card>
+      </View>
+    )
+  }
+
+  render() {
+    //
+    return (
+      <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
+        <CustomHeader title="Case Details" navigation={this.props.navigation} />
+        <View style={{ flex: 1, backgroundColor: Color.secondary }}>
+          <FlatList
+            data={this.state.data}
+            renderItem={this.renderCase}
+            
+          />
+        </View>
+      </SafeAreaView>
+    );
+  }
 }
+
