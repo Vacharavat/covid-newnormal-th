@@ -1,5 +1,7 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
+### อักษรย่อ
+- https://th.wikipedia.org/wiki/รายชื่ออักษรย่อของจังหวัดในประเทศไทย
 ### UI Covid App
 - https://x7x7x8.axshare.com
 ### Background
