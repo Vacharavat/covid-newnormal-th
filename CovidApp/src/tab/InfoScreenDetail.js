@@ -11,7 +11,7 @@ export class InfoScreenDetail extends Component{
         return (
         <SafeAreaView style={{flex: 1 , backgroundColor:Color.primary}}>
           <Status />
-        <CustomHeader title="Emergency Contacts"  navigation={this.props.navigation}/>
+        <CustomHeader title="CONTACTS"  navigation={this.props.navigation}/>
         
         <ScrollView>
           <Card>

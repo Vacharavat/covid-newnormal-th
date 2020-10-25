@@ -94,6 +94,9 @@ const IMAGE = {
     //INfo
     IMAGE_EMER : require('../image/emer.jpg'),
     IMAGE_AGEN : require('../image/agen.jpg'),
-    IMAGE_THCHANA : require('../image/thai.jpg'),
+    IMAGE_THCHANA : require('../image/thai.png'),
+
+    //จังหวัด
+    IMAGE_ฺฺBKK : require('../image/bangkok.jpg'),
 }
 export {IMAGE}

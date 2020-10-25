@@ -46,7 +46,7 @@ export class InfoScreen extends Component{
               <View
                 style={styles.detail}
               >
-                <Text style={styles.text}>หน่วยงานที่เกี่ยวข้อง</Text>
+                <Text style={styles.text}>COVID AGENCY</Text>
               </View>
             </TouchableOpacity>
 
@@ -61,7 +61,7 @@ export class InfoScreen extends Component{
               <View
                 style={styles.detail}
               >
-                <Text style={styles.text}>SCAN QRCODE</Text>
+                <Text style={styles.text}>THAICHANA</Text>
               </View>
             </TouchableOpacity>
           </View>

@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import {
-  Linking,
+  AppRegistry,
   StyleSheet,
   Text,
-  View,
-  SafeAreaView,
-  Image,
+  NavigatorIOS,
   TouchableOpacity,
-  ScrollView,
-  Button,
+  Linking,
+  SafeAreaView,
+  
 } from "react-native";
 import { CustomHeader } from "../index";
 import Color from "../constants/colors";
@@ -16,142 +15,44 @@ import { IMAGE } from "../constants/image";
 import { Card } from "react-native-elements";
 import { Entypo } from "@expo/vector-icons";
 import Status from "../Status";
+import { WebView } from 'react-native-webview';
+
 export class InfoScreenDetail3 extends Component {
+
+
   render() {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
         <Status />
-        <CustomHeader title="Agency" navigation={this.props.navigation} />
-
-        <ScrollView>
-          <Card>
-            <Card.Title>กระทรวงมหาดไทย (ศบค.มท.)</Card.Title>
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                alignContent: "center",
-                justifyContent: "center",
-              }}
-            >
-              <Image
-                source={IMAGE.IMAGE_AGENCY1}
-                style={{ width: 100, height: 100, marginBottom: 10 }}
-              />
-            </View>
-            <Card.Divider />
-            <Text
-              onPress={() => {
-                Linking.openURL("http://www.moicovid.com/");
-              }}
-              style={{
-                color: Color.gray,
-                fontWeight: "bold",
-                padding: 1,
-                fontSize: 14,
-              }}
-            >
-              {" "}
-              <Entypo name="link" size={14} color="black" />{" "}
-              http://www.moicovid.com/
-            </Text>
-          </Card>
-
-          <Card>
-            <Card.Title>กระทรวงสาธารณสุข</Card.Title>
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                alignContent: "center",
-                justifyContent: "center",
-              }}
-            >
-              <Image
-                source={IMAGE.IMAGE_AGENCY2}
-                style={{ width: 100, height: 100, marginBottom: 10 }}
-              />
-            </View>
-            <Card.Divider />
-            <Text
-              onPress={() => {
-                Linking.openURL("https://www3.dmsc.moph.go.th/");
-              }}
-              style={{
-                color: Color.gray,
-                fontWeight: "bold",
-                padding: 1,
-                fontSize: 14,
-              }}
-            >
-              {" "}
-              <Entypo name="link" size={14} color="black" />{" "}
-              https://www3.dmsc.moph.go.th/
-            </Text>
-          </Card>
-
-          <Card>
-            <Card.Title>World Health Organization (WHO)</Card.Title>
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                alignContent: "center",
-                justifyContent: "center",
-              }}
-            >
-              <Image
-                source={IMAGE.IMAGE_AGENCY3}
-                style={{ width: 100, height: 100, marginBottom: 10 }}
-              />
-            </View>
-            <Card.Divider />
-            <Text
-              onPress={() => {
-                Linking.openURL("https://www.who.int/");
-              }}
-              style={{
-                color: Color.gray,
-                fontWeight: "bold",
-                padding: 1,
-                fontSize: 14,
-              }}
-            >
-              {" "}
-              <Entypo name="link" size={14} color="black" />{" "}
-              https://www.who.int/
-            </Text>
-          </Card>
-        </ScrollView>
+        <CustomHeader title="THAICHANA" navigation={this.props.navigation} />
+        <WebView
+        source={{
+          uri: 'https://merchant.thaichana.com'
+        }}
+        style={{ marginTop: 20 }}
+      />
       </SafeAreaView>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  //{/* Background Color */}
-  topblock: {
-    flex: 0.35,
-    backgroundColor: Color.primary,
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
-    justifyContent: "center",
+  centerText: {
+   flex: 1,
+   fontSize: 18,
+   padding: 32,
+   color: '#777',
   },
-  //{/* Statistic block1 */}
-  bigstatblock: {
-    top: -30,
-    flexDirection: "row",
-    justifyContent: "center",
-    marginTop: 20,
+  textBold: {
+   fontWeight: '500',
+   color: '#000',
   },
-  //{/* Substatistic block1 */}
-  statblock: {
-    backgroundColor: "white",
-    width: "90%",
-    height: 150,
-    // marginLeft: '5%',
-    borderRadius: 10,
-    justifyContent: "center",
-    marginTop: 20,
+  buttonText: {
+   fontSize: 21,
+   color: 'rgb(0,122,255)',
   },
-});
+  buttonTouchable: {
+    padding: 16,
+  },
+ });
+ 
