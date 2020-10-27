@@ -185,7 +185,7 @@ export class HomeScreen extends Component {
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('SymptompsScreenDetail')}>
                 <View style={styles.subdetail2}>
                     <View style={styles.imageblock}>
-                    <AntDesign name="rightcircleo" size={40} color="black" />
+                    <AntDesign name="rightcircleo" size={40} color="white" />
                     </View>
                     <View style={styles.subimageblock}>
                       <Text style={styles.subimagetext}>More Details</Text>
@@ -266,7 +266,7 @@ export class HomeScreen extends Component {
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('PreventionsScreenDetail')}>
                 <View style={styles.subdetail2}>
                     <View style={styles.imageblock}>
-                    <AntDesign name="rightcircleo" size={40} color="black" />
+                    <AntDesign name="rightcircleo" size={40} color="white" />
                     </View>
                     <View style={styles.subimageblock}>
                       <Text style={styles.subimagetext}>More Details</Text>
