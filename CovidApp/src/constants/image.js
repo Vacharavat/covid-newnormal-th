@@ -96,7 +96,34 @@ const IMAGE = {
     IMAGE_AGEN : require('../image/agen.jpg'),
     IMAGE_THCHANA : require('../image/thai.png'),
 
+    // โรงพยาบาล
+    IMAGE_ฺฺHOS1 : require('../image/chula.jpg'),
+    IMAGE_ฺฺHOS2 : require('../image/hos2.jpg'),
+    IMAGE_ฺฺHOS3 : require('../image/hos3.jpg'),
+    IMAGE_ฺฺHOS4 : require('../image/hos4.png'),
+    IMAGE_ฺฺHOS5 : require('../image/hos5.jpg'),
+    IMAGE_ฺฺHOS6 : require('../image/hos6.jpg'),
+    IMAGE_ฺฺHOS7 : require('../image/hos7.jpg'),
+    IMAGE_ฺฺHOS8 : require('../image/hos8.jpg'),
+    IMAGE_ฺฺHOS9 : require('../image/hos9.jpg'),
+    IMAGE_ฺฺHOS10 : require('../image/hos10.jpg'),
+    IMAGE_ฺฺHOS11 : require('../image/hos11.jpg'),
+    IMAGE_ฺฺHOS12 : require('../image/hos12.jpg'),
+    IMAGE_ฺฺHOS13 : require('../image/hos13.jpg'),
+    IMAGE_ฺฺHOS14 : require('../image/hos14.png'),
+    IMAGE_ฺฺHOS15 : require('../image/hos15.jpg'),
+    IMAGE_ฺฺHOS16 : require('../image/hos16.jpg'),
+    IMAGE_ฺฺHOS17 : require('../image/hos17.jpg'),
+    IMAGE_ฺฺHOS18 : require('../image/hos18.jpg'),
+    // department
+    IMAGE_ฺฺDEP1 : require('../image/dep1.png'),
+    IMAGE_ฺฺDEP2 : require('../image/dep2.png'),
+    IMAGE_ฺฺDEP3 : require('../image/dep3.jpg'),
+    IMAGE_ฺฺDEP4 : require('../image/dep4.png'),
+    
+    
     //จังหวัด
     IMAGE_ฺฺBKK : require('../image/bangkok.jpg'),
+
 }
 export {IMAGE}

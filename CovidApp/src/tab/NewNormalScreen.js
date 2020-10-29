@@ -14,6 +14,7 @@ import { IMAGE } from "../constants/image";
 import { CustomHeader } from "../index";
 import Status from "../Status";
 import Color from "../constants/colors";
+
 export class NewNormalScreen extends Component {
   render() {
     return (
@@ -25,6 +26,7 @@ export class NewNormalScreen extends Component {
           navigation={this.props.navigation}
         />
         <ScrollView >
+        
           <View
             style={{
               flex: 1,
@@ -94,6 +96,7 @@ export class NewNormalScreen extends Component {
               </View>
             </TouchableOpacity>
           </View>
+       
         </ScrollView>
       </SafeAreaView>
     );
