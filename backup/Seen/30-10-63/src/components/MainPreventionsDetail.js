@@ -3,7 +3,7 @@ import { View, StyleSheet, ScrollView } from "react-native";
 import datas from "../data/data_preventions";
 import PreventionsDetail from "./PreventionsDetail";
 
-class MainPreventions extends Component {
+class MainPreventionsDetail extends Component {
   state = {
     datas: datas,
   };
@@ -19,7 +19,7 @@ class MainPreventions extends Component {
       <View style={styles.container}>
         <ScrollView
           horizontal={false}
-          contentContainerStyle={{ width: "100" }}
+          // contentContainerStyle={{ width: "100" }}
           showsHorizontalScrollIndicator={false}
           style={styles.container}
         >
@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainPreventions;
+export default MainPreventionsDetail;
