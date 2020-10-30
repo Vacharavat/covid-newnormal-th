@@ -9,7 +9,7 @@ class Symptomps extends Component {
         <View style={styles.imageblock}>
           <Image
             style={styles.imagedetail}
-            source={{ uri: this.props.detail.image }}
+            source={this.props.detail.image}
           />
         </View>
         <View style={styles.subimageblock}>

@@ -13,7 +13,7 @@ export class PreventionsDetail extends Component {
             <View style={styles.imageblock}>
               <Image
                 style={{ width: 100, height: 100 }}
-                source={{ uri: this.props.detail.image }}
+                source={this.props.detail.image}
               />
               <Text style={styles.text}>
                 {this.props.detail.thai}

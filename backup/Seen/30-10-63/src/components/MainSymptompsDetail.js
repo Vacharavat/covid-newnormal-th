@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
-import datas2 from "../data/data_symptomps";
+import datas from "../data/data_symptomps";
 import SymptompsDetail from "./SymptompsDetail";
 
 class MainSymptompsDetail extends Component {
   state = {
-    datas2: datas2,
+    datas: datas,
   };
 
   getSymptompsDetailData() {
-    return this.state.datas2.map((data) => {
+    return this.state.datas.map((data) => {
       return <SymptompsDetail detail={data} key={data.id} />;
     });
   }
@@ -19,7 +19,7 @@ class MainSymptompsDetail extends Component {
       <View style={styles.container}>
         <ScrollView
           horizontal={false}
-          contentContainerStyle={{ width: "100" }}
+          // contentContainerStyle={{ width: "100" }}
           showsHorizontalScrollIndicator={false}
           style={styles.container}
         >

@@ -20,7 +20,7 @@ class MainPreventions extends Component {
       <View>
         <ScrollView
           horizontal={true}
-          contentContainerStyle={{ width: "100" }}
+          // contentContainerStyle={{ width: "100" }}
           showsHorizontalScrollIndicator={false}
           style={styles.container}
         >
