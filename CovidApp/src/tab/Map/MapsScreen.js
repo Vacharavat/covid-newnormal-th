@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { SafeAreaView, StyleSheet, View, Text, Image } from "react-native";
-import { CustomHeader } from "../index";
-import Status from "../Status";
+import { CustomHeader } from "../../index";
+import Status from "../../Status";
 import MapView, { Marker, Callout } from "react-native-maps";
-import hospital from "../image/hospital.png";
-import department from "../image/department.png";
-import Color from "../constants/colors";
-import { IMAGE } from "../constants/image";
+import hospital from "../../image/hospital.png";
+import department from "../../image/department.png";
+import Color from "../../constants/colors";
+import { IMAGE } from "../../constants/image";
 import axios from "axios";
 import { FontAwesome5 } from "@expo/vector-icons";
 
