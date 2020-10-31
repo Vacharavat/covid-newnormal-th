@@ -10,12 +10,13 @@ export class Emergency extends Component {
       <SafeAreaView style={{ flex: 1 }}>
         <Card>
           <Card.Title>{this.props.detail.company}</Card.Title>
-          <Card.Divider />
           <View style={styles.box}></View>
+          <Card.Divider />
           <Text onPress={() => {Linking.openURL('tel:'+this.props.detail.tel);}} style={styles.txt}>
-            <Feather name="phone-call" size={24} /> {this.props.detail.tel}{" "}
+            <Feather name="phone-call" size={24} /> {this.props.detail.tel}{" "}{" "}
           </Text>
-          <Text>{"        "}{this.props.detail.caption}</Text>
+          
+    <Text>{'     '}{this.props.detail.caption}</Text>
         </Card>
       </SafeAreaView>
     );
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
   color: Color.green,
   fontWeight: "bold",
   padding: 1,
-  fontSize: 32,
+  fontSize: 20,
  },
 });
 

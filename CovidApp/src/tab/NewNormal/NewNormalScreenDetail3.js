@@ -17,7 +17,7 @@ export class NewNormalScreenDetail3 extends Component {
         <Status />
         <CustomHeader title="New Normal" navigation={this.props.navigation} />
         <ScrollView horizontal={true} pagingEnabled={true} showsHorizontalScrollIndicator={true}>
-          <View style={{ backgroundColor: "#da99fa", flex: 1, width: screenWidth, }}>
+          <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth, }}>
             <ScrollView>
             <View style={NewNormalDetail.topblock}>
               <Text style={NewNormalDetail.toptext}><MaterialCommunityIcons name="worker" size={22}/> หลังเลิกงาน</Text>
@@ -66,7 +66,7 @@ export class NewNormalScreenDetail3 extends Component {
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR29} resizeMode='contain'/>
               </View>
               <View style={NewNormalDetail.detail}>
-                <Text style={NewNormalDetail.subdetail}>"ในบ้าน หากสมาชิก มีอาการต้องสงสัยให้ปฏิบัติตตามแนวทาง  Home Quarantine"</Text>
+                <Text style={NewNormalDetail.subdetail}>"ในบ้าน หากสมาชิก มีอาการต้องสงสัยให้ปฏิบัติตตามแนวทาง {"\n"}  Home Quarantine"</Text>
               </View>
             </View>
 

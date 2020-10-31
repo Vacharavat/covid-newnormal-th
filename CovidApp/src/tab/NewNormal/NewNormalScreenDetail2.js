@@ -17,7 +17,7 @@ export class NewNormalScreenDetail2 extends Component {
         <Status />
         <CustomHeader title="New Normal" navigation={this.props.navigation} />
         <ScrollView horizontal={true} pagingEnabled={true} showsHorizontalScrollIndicator={true}>
-          <View style={{ backgroundColor: "#f787c7", flex: 1, width: screenWidth, }}>
+          <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth, }}>
             <ScrollView>
             <View style={NewNormalDetail.topblock}>
               <Text style={NewNormalDetail.toptext}><MaterialCommunityIcons name="stairs" size={22}/> บันได และ ลิฟท์</Text>
@@ -27,13 +27,13 @@ export class NewNormalScreenDetail2 extends Component {
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR8} resizeMode='contain'/>
               </View>
               <View style={NewNormalDetail.detail}>
-                <Text style={NewNormalDetail.subdetail}>"แนะนำว่า พยายามขึ้นบันได แทนการใช้ลิฟท์"</Text>
+                <Text style={NewNormalDetail.subdetail}>"แนะนำว่า พยายามขึ้นบันได{"\n"} แทนการใช้ลิฟท์"</Text>
               </View>
             </View>
 
             <View style={NewNormalDetail.block}>
               <View style={NewNormalDetail.detail2}>
-                <Text style={NewNormalDetail.subdetail}>"หากต้องใช้ลิฟท์ ควรใส่หน้ากาก เลี่ยงสัมผัสออกจากลิฟท์ล้างมือ"</Text>
+                <Text style={NewNormalDetail.subdetail}>"หากต้องใช้ลิฟท์ ควรใส่หน้ากาก {"\n"} เลี่ยงสัมผัสออกจากลิฟท์ล้างมือ"</Text>
               </View>
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR9} resizeMode='contain'/>
@@ -65,7 +65,7 @@ export class NewNormalScreenDetail2 extends Component {
 
 
           {/* part2 */}
-          <View style={{ backgroundColor: "#f787c7", flex: 1, width: screenWidth,}}>
+          <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth,}}>
             <ScrollView>
             <View style={NewNormalDetail.topblock}>
               <Text style={NewNormalDetail.toptext}><MaterialCommunityIcons name="food" size={22}/> กินอาหาร</Text>
@@ -112,7 +112,7 @@ export class NewNormalScreenDetail2 extends Component {
             </View>
             <View style={NewNormalDetail.block}>
               <View style={NewNormalDetail.detail2}>
-                <Text style={NewNormalDetail.subdetail}>"หากเป็นไปได้ ควรมีภาชนะส่วนตัวของตัวเอง"</Text>
+                <Text style={NewNormalDetail.subdetail}>"หากเป็นไปได้ ควรมีภาชนะ{"\n"}ส่วนตัวของตัวเอง"</Text>
               </View>
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR17} resizeMode='contain'/>
@@ -123,14 +123,14 @@ export class NewNormalScreenDetail2 extends Component {
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR18} resizeMode='contain'/>
               </View>
               <View style={NewNormalDetail.detail}>
-                <Text style={NewNormalDetail.subdetail}>"เลือกร้านที่สะอาด ปรุงอาหารตามสุขอนามัยที่ดี"</Text>
+                <Text style={NewNormalDetail.subdetail}>"เลือกร้านที่สะอาด ปรุงอาหารตาม{"\n"}สุขอนามัยที่ดี"</Text>
               </View>
             </View>
             </ScrollView>
           </View>
 
           {/* Part3 */}
-          <View style={{ backgroundColor: "#f787c7", flex: 1, width: screenWidth,}}>
+          <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth,}}>
             <ScrollView>
             <View style={NewNormalDetail.topblock}>
               <Text style={NewNormalDetail.toptext}><Fontisto name="room" size={22}/> ในห้องทำงาน</Text>
@@ -146,7 +146,7 @@ export class NewNormalScreenDetail2 extends Component {
 
             <View style={NewNormalDetail.block}>
               <View style={NewNormalDetail.detail2}>
-                <Text style={NewNormalDetail.subdetail}>อุปกรณ์ เครื่องใช้{"\n"}"หลังจุดที่มีการสัมผัสใช้ร่วม ทำความสะอาดบ่อยๆ"</Text>
+                <Text style={NewNormalDetail.subdetail}>อุปกรณ์ เครื่องใช้{"\n"}"หลังจุดที่มีการสัมผัสใช้ร่วม {"\n"}ทำความสะอาดบ่อยๆ"</Text>
               </View>
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR20} resizeMode='contain'/>

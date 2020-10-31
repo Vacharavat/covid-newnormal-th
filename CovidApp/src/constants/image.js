@@ -47,7 +47,22 @@ const IMAGE = {
 
     //EventCoviddetailScreen
     IMAGE_EVENT : require('../image/event.jpg'),
-
+    //
+    IMAGE_TRANS : require('../image/trans.jpg'),
+    //
+    IMAGE_LOOK : require('../image/look.jpg'),
+    //
+    IMAGE_LOW : require('../image/low.png'),
+    IMAGE_HIGH : require('../image/high.png'),
+    //
+    IMAGE_CORRECT : require('../image/corret.jpg'),
+    //
+    IMAGE_HEAL : require('../image/heal.jpg'),
+    //
+    IMAGE_PHYSICAL : require('../image/physical.jpg'),
+    IMAGE_PHYSICAL2 : require('../image/physical2.jpg'),
+    //
+    IMAGE_EFFECT : require('../image/effect.jpeg'),
     //Agency
     IMAGE_AGENCY1 : require('../image/department1.png'),
     IMAGE_AGENCY2 : require('../image/department2.png'),
@@ -125,5 +140,9 @@ const IMAGE = {
     //จังหวัด
     IMAGE_ฺฺBKK : require('../image/bangkok.jpg'),
 
+    //drawer
+    IMAGE_ฺฺWHAT : require('../image/question.png'),
+    IMAGE_ฺฺCOVID : require('../image/covid-19.png'),
+    IMAGE_CALENDAR :require('../image/calendar.png'),
 }
 export {IMAGE}

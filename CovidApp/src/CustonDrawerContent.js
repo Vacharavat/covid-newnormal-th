@@ -62,14 +62,14 @@ export class CustonDrawerContent extends Component{
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Correct')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal'}}>การตรวจ</Text>
+                  <Text style={{color:'white', fontWeight:'normal'}}>การตรวจโรค</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Heal')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal'}}>การรักษา</Text>
+                  <Text style={{color:'white', fontWeight:'normal'}}>การรักษาโรค</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity

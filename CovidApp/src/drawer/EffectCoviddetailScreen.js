@@ -1,78 +1,40 @@
 import React, { Component } from 'react';
-import { Text, View, SafeAreaView,Image, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, SafeAreaView,Image, ScrollView} from 'react-native';
 import {CustomHeader} from '../index'
 import { Card } from "react-native-elements";
-import Color from '../constants/colors';
 import Status from '../Status'
-
+import DrawerStyles from "../styles/drawer/drawerstyle"
+import { IMAGE } from "../constants/image";
 export class EffectCoviddetailScreen extends Component{
     render(){
         return (
-            <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary}}>
+            <SafeAreaView style={DrawerStyles.safeview}>
               <Status />
-              <CustomHeader title='ผลกระทบ' navigation={this.props.navigation}/>
-              <ScrollView>
-        <Card>
-            <Card.Title>ผลกระทบทางเศรษฐกิจและสังคม</Card.Title>
-            <Card.Divider />
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                alignContent: "center",
-                justifyContent: "center",
-              }}
-            >
-      
+              <CustomHeader title='Detail' navigation={this.props.navigation}/>
+              <View style={DrawerStyles.container}>
+            <ScrollView>
+            <View style={DrawerStyles.topblock}>
+              <Text style={DrawerStyles.toptext}>ผลกระทบทางเศรษฐกิจและสังคม</Text>
             </View>
-            <Text style={styles.headtext}>ผลกระทบทางเศรษฐกิจและสังคม</Text>
-                  <Text style={styles.detail}>{'      '}การระบาดไปทั่วในวงกว้างของโรคโควิด19 และวิกฤตทางเศรษฐกิจที่เชื่อมโยงกับสถานการณ์นี้ ทําให้เกิดความท้าทายใหญ่หลวงในระดับโลกและ ระดับท้องถิ่น</Text>
-                  <Text style={styles.detail}>{'      '}ผลกระทบทางสุขภาพ เศรษฐกิจและสังคมเกิดขึ้นกับกลุ่มคนทุกกลุ่ม แต่บ่อนทําลายกลุ่มประชากรเปราะบางมากที่สุด ซึ่งรวมถึง คนยากจน ผู้สูงอาย ุ ผู้พิการ เยาวชน และกลุ่มคนชาติพันธุ์</Text>
-                  <Text style={styles.detail}>{'      '}วิกฤตทางโรคระบาดและเศรษฐกิจกระทบต่อกลุ่มประชากรเปราะบางอย่างไม่ เป็นธรรม ซึ่งอาจจุดชนวนให้เกิดความไม่เท่าเทียมกันและความยากจนมากขึ้น</Text>
-                  <Text style={styles.detail}>{'      '}วิกฤตโลกในครั้งนี้ต้องการการประสานงาน ความเป็นอันหนึ่งอันเดียวกัน และ นโยบายทางเศรษฐกิจ สังคมและสาธารณสุขท ี่ มีประสิทธิภาพ</Text>
+            <Card>
+            <View style={DrawerStyles.viewimage}>
+              <Image source={IMAGE.IMAGE_EFFECT} style={{ width: 350, height: 200 }}/>
+            </View>
           </Card>
-
-          </ScrollView> 
+            <View style={DrawerStyles.block}>
+              <View style={DrawerStyles.detailbox4}>
+            <Text style={DrawerStyles.subdetailbox}>
+        {"    "}การระบาดไปทั่วในวงกว้างของโรคโควิด19 และวิกฤตทางเศรษฐกิจที่เชื่อมโยงกับสถานการณ์นี้ ทําให้เกิดความท้าทายใหญ่หลวงในระดับโลกและ ระดับท้องถิ่น{'\n'}{'\n'}
+        {"    "}ผลกระทบทางสุขภาพ เศรษฐกิจและสังคมเกิดขึ้นกับกลุ่มคนทุกกลุ่ม แต่บ่อนทําลายกลุ่มประชากรเปราะบางมากที่สุด ซึ่งรวมถึง คนยากจน ผู้สูงอายุ ผู้พิการ เยาวชน และกลุ่มคนชาติพันธุ์{'\n'}{'\n'}
+        {"    "}วิกฤตทางโรคระบาดและเศรษฐกิจกระทบต่อกลุ่มประชากรเปราะบางอย่างไม่ เป็นธรรม ซึ่งอาจจุดชนวนให้เกิดความไม่เท่าเทียมกันและความยากจนมากขึ้น{'\n'}{'\n'}
+        {"    "}วิกฤตโลกในครั้งนี้ต้องการการประสานงาน ความเป็นอันหนึ่งอันเดียวกัน และ นโยบายทางเศรษฐกิจ สังคมและสาธารณสุขที่มีประสิทธิภาพ{'\n'}{'\n'}
+            </Text>
+              </View>
+            </View>
+            </ScrollView>
+          </View>
             </SafeAreaView>
           );
     }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  headtext: {
-    fontWeight: 'bold',
-    fontSize: 16,
-    color: Color.darkpurple,
-    margin: 10,
-    textAlign: 'center',
-  },
-  box: {
-    flex: 0.9,
-    backgroundColor: 'rgb(242,242,247)',
-    width: '80%',
-    height: '90%',
-    margin: 10,
-    borderRadius: 10,
-    top: 5,
-    alignItems: 'center',
-  },
-  detail: {
-    margin: 10,
-    color: Color.gray,
-    fontSize: 16,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.22,
-    shadowRadius: 2.22,
-
-    elevation: 3,
-  }
-})

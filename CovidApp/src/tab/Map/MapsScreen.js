@@ -2887,7 +2887,7 @@ const styles = StyleSheet.create({
   arrowBorder: {
     backgroundColor: "transparent",
     borderColor: "transparent",
-    borderTopColor: "#007a87",
+    borderTopColor: Color.darkpurple,
     borderWidth: 16,
     alignSelf: "center",
     marginTop: -0.5,

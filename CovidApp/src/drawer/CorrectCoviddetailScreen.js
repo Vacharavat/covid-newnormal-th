@@ -1,43 +1,30 @@
 import React, { Component } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  SafeAreaView,
-  Image,
-  TouchableOpacity,
-  ScrollView,
-} from "react-native";
+import {Text, View, SafeAreaView, Image, ScrollView,} from "react-native";
 import { CustomHeader } from "../index";
-import Color from "../constants/colors";
 import { IMAGE } from "../constants/image";
 import { Card } from "react-native-elements";
 import Status from '../Status'
+import DrawerStyles from "../styles/drawer/drawerstyle"
 
 export class CorrectCoviddetailScreen extends Component {
   render() {
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
+      <SafeAreaView style={DrawerStyles.safeview}>
         <Status />
-        <CustomHeader title="การตรวจ" navigation={this.props.navigation} />
-        <ScrollView>
-        <Card>
-            <Card.Title>การตรวจ</Card.Title>
-            <Card.Divider />
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                alignContent: "center",
-                justifyContent: "center",
-              }}
-            >
-              <Image
-                source={IMAGE.IMAGE_EVENT}
-                style={{ width: "90%", height: 200 }}
-              />
+        <CustomHeader title="Detail" navigation={this.props.navigation} />
+        <View style={DrawerStyles.container}>
+            <ScrollView>
+            <View style={DrawerStyles.topblock}>
+              <Text style={DrawerStyles.toptext}>การตรวจเชื้อ COVID-19</Text>
             </View>
-            <Text style={styles.detail}>
+            <Card>
+            <View style={DrawerStyles.viewimage}>
+              <Image source={IMAGE.IMAGE_CORRECT} style={{ width: 350, height: 200 }}/>
+            </View>
+          </Card>
+            <View style={DrawerStyles.block}>
+              <View style={DrawerStyles.detailbox4}>
+            <Text style={DrawerStyles.subdetailbox}>
             {"      "}ไม่มีการตรวจโควิด19 ชนิดใดได้รับการขึ้นทะเบียน
                 ยกเว้นภายใต้ข้อกําหนดการใช้ในสภาวะฉุกเฉินเท่านั้น
                 ทุกประเภทกําลังอยู่ระหว่างการประเมิน{"\n"}
@@ -56,68 +43,12 @@ export class CorrectCoviddetailScreen extends Component {
                 การวินิจฉัยการติดเชื้อเฉียบพลัน
                 การพัฒนาชุดตรวจทําอยู่ในหลายประเทศ
                 {"\n"}
-            </Text>
-          </Card>
-
-       </ScrollView>
+              </Text>
+              </View>
+            </View>
+            </ScrollView>
+          </View>
       </SafeAreaView>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  box: {
-    flex: 1,
-    backgroundColor: "rgb(242,242,247)",
-    width: "90%",
-    height: "90%",
-    margin: 10,
-    borderRadius: 10,
-    top: 10,
-    alignItems: "center",
-  },
-
-  boximage: {
-    width: "100%",
-    flex: 0.4,
-    backgroundColor: "skyblue",
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
-  },
-  boxdetail: {
-    width: "100%",
-    flex: 0.6,
-    //justifyContent: 'center',
-    backgroundColor: Color.lightgray,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
-  },
-  headtext: {
-    fontWeight: "bold",
-    fontSize: 16,
-    color: Color.darkpurple,
-    margin: 10,
-    textAlign: "center",
-  },
-  detail: {
-    //textAlign: 'center',
-    margin: 10,
-    color: Color.gray,
-    //fontWeight: 'bold',
-    fontSize: 16,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.22,
-    shadowRadius: 2.22,
-
-    elevation: 3,
-  },
-});

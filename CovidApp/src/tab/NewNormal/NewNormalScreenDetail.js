@@ -32,7 +32,7 @@ export class NewNormalScreenDetail extends Component {
 
             <View style={NewNormalDetail.block}>
               <View style={NewNormalDetail.detail2}>
-                <Text style={NewNormalDetail.subdetail}>"สังเกตอาการตัวเอง หากมีไข้ ปวดศรีษะ ปวดเมื่อย ครั่นเนื้อครั่นตัว มีน้ำมูก ไม่ควรออกจากบ้าน"</Text>
+                <Text style={NewNormalDetail.subdetail}>"สังเกตอาการตัวเอง หากมีไข้ ปวดศรีษะ ปวดเมื่อย ครั่นเนื้อครั่นตัว มีน้ำมูก {"\n"} ไม่ควรออกจากบ้าน"</Text>
               </View>
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR2} resizeMode='contain'/>
@@ -44,13 +44,13 @@ export class NewNormalScreenDetail extends Component {
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR3} resizeMode='contain'/>
               </View>
               <View style={NewNormalDetail.detail}>
-                <Text style={NewNormalDetail.subdetail}>"เตรียมหน้ากาก 2 อัน แอลกอฮอล์เจล (ถ้าหาได้)"</Text>
+                <Text style={NewNormalDetail.subdetail}>"เตรียมหน้ากาก 2 อัน แอลกอฮอล์เจล {"\n"} (ถ้าหาได้)"</Text>
               </View>
             </View>
 
             <View style={NewNormalDetail.block}>
               <View style={NewNormalDetail.detail2}>
-                <Text style={NewNormalDetail.subdetail}>"ใส่หน้ากากผ้า ครอบปากจมูก กระชับใบหน้าตลอดการเดินทาง หรืออยู่ในที่คนแออัด"</Text>
+                <Text style={NewNormalDetail.subdetail}>"ใส่หน้ากากผ้า ครอบปากจมูก กระชับใบหน้าตลอดการเดินทาง {"\n"} หรืออยู่ในที่คนแออัด"</Text>
               </View>
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR4} resizeMode='contain'/>
@@ -89,7 +89,7 @@ export class NewNormalScreenDetail extends Component {
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR7} resizeMode='contain'/>
               </View>
               <View style={NewNormalDetail.detail}>
-                <Text style={NewNormalDetail.subdetail}>"หลังลงจากพาหนะ ให้ใช้แอลกอฮอล์เจลล้างมือ"</Text>
+                <Text style={NewNormalDetail.subdetail}>"หลังลงจากพาหนะ{"\n"} ให้ใช้แอลกอฮอล์เจลล้างมือ"</Text>
               </View>
             </View>
             </ScrollView>
