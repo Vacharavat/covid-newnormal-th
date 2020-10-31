@@ -80,7 +80,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CBI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -106,7 +106,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CPM}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -135,7 +135,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SPK}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -164,7 +164,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NBI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -193,7 +193,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_YLA}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -222,7 +222,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SKA}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -251,7 +251,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PTN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -280,7 +280,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NWT}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -309,7 +309,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CMI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -338,7 +338,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PTE}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -367,7 +367,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CCO}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -396,7 +396,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NPT}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -425,7 +425,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CPN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -451,7 +451,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_KBI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -480,7 +480,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NMA}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -506,7 +506,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SNI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -535,7 +535,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_STN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -564,7 +564,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PKN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -593,7 +593,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_UBN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -622,7 +622,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PLG}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -651,7 +651,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SKN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -680,7 +680,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_BRM}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -706,7 +706,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NST}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -735,7 +735,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_UDN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -764,7 +764,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SKW}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -793,7 +793,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PRI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -819,7 +819,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_KRI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -848,7 +848,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SRN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -877,7 +877,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CRI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -906,7 +906,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NSN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -935,7 +935,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SSK}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -961,7 +961,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_TRG}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -990,7 +990,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_RBR}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1019,7 +1019,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PLK}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1048,7 +1048,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_KKN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1077,7 +1077,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SPB}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1106,7 +1106,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_RYG}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1135,7 +1135,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_LEI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1164,7 +1164,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_MSN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1193,7 +1193,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SRI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1222,7 +1222,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_MDH}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1251,7 +1251,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_AYA}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1277,7 +1277,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_LPN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1303,7 +1303,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_LPG}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1332,7 +1332,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PNB}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1361,7 +1361,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_STI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1390,7 +1390,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_UTT}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1419,7 +1419,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CTI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1445,7 +1445,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_RET}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1474,7 +1474,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_TAK}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1503,7 +1503,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NBP}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1532,7 +1532,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NKI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1561,7 +1561,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_CPM}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1587,7 +1587,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PYO}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1616,7 +1616,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_KSN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1645,7 +1645,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NYK}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1674,7 +1674,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_ACR}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1700,7 +1700,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PNA}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1726,7 +1726,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_LRI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1748,14 +1748,14 @@ export class MapsScreen extends Component {
         return (
           <Marker
             coordinate={{
-              latitude: 17.392093,
-              longitude: 104.769568,
+              latitude: 17.392402,
+              longitude: 104.769553,
             }}
-            title={"นครปฐม"}
+            title={"นครพนม"}
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_NPT}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1780,7 +1780,7 @@ export class MapsScreen extends Component {
               latitude: 13.111128,
               longitude: 99.939183,
             }}
-            title={"เพชรบุรี"}
+            title={"IMAGE_PBI"}
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
@@ -1813,7 +1813,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_PRE}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1842,7 +1842,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_YST}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1871,7 +1871,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_UTI}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1900,7 +1900,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SKM}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1922,14 +1922,14 @@ export class MapsScreen extends Component {
         return (
           <Marker
             coordinate={{
-              latitude: 17.154557,
-              longitude: 104.134843,
+              latitude: 17.154563,
+              longitude: 104.134844,
             }}
-            title={"สมุทรสาคร"}
+            title={"สกลนคร"}
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_SKN}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
@@ -1958,7 +1958,7 @@ export class MapsScreen extends Component {
             description={"ยอดผู้ติดเชื้อทั้งหมด :  คน อัพเดตล่าสุดเมื่อ : "}
           >
             <Image
-              source={IMAGE.IMAGE_ฺฺBKK}
+              source={IMAGE.IMAGE_MKM}
               style={{ width: 100, height: 60 }}
               resizeMode="contain"
             />
