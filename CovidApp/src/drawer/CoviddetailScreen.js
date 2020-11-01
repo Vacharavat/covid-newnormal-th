@@ -16,7 +16,7 @@ export class CoviddetailScreen extends Component {
             <View style={DrawerStyles.topblock}>
               <Text style={DrawerStyles.toptext}>COVID-19 คืออะไร</Text>
             </View>
-            <View style={DrawerStyles.block}>
+            <View style={DrawerStyles.blockcovid}>
               <View style={DrawerStyles.image}>
               <Image style={DrawerStyles.imagedetail} source={IMAGE.IMAGE_ฺฺWHAT} resizeMode='contain'/>
               </View>
@@ -28,7 +28,7 @@ export class CoviddetailScreen extends Component {
             <View style={DrawerStyles.topblock}>
               <Text style={DrawerStyles.toptext}>ไวรัสและโรคอุบัติใหม่</Text>
             </View>
-            <View style={DrawerStyles.block}>
+            <View style={DrawerStyles.blockcovid}>
               <View style={DrawerStyles.detail2}>
                 <Text style={DrawerStyles.subdetail}>"ไวรัสและโรคอุบัติใหม่นี้ไม่เป็นที่รู้จักเลยก่อนที่จะมีการระบาดในเมืองอู่ฮั่น
               ประเทศจีนในเดือนธันวาปี 2019"</Text>
@@ -40,7 +40,7 @@ export class CoviddetailScreen extends Component {
             <View style={DrawerStyles.topblock}>
               <Text style={DrawerStyles.toptext}>ปัจจุบัน</Text>
             </View>
-            <View style={DrawerStyles.block}>
+            <View style={DrawerStyles.blockcovid}>
               <View style={DrawerStyles.image}>
               <Image style={DrawerStyles.imagedetail} source={IMAGE.IMAGE_CALENDAR} resizeMode='contain'/>
               </View>

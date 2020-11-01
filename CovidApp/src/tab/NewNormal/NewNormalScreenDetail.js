@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Text, View, SafeAreaView, Image, ScrollView, Dimensions } from "react-native";
+import { Text, View, SafeAreaView, Image, ScrollView, Dimensions, } from "react-native";
 import { CustomHeader } from "../../index";
 import Status from "../../Status";
 import { Octicons } from "@expo/vector-icons";
 import { IMAGE } from "../../constants/image";
 import { AntDesign } from '@expo/vector-icons';
-import NewNormalDetail from "../../styles/tab/newnormaldetail"
+import NewNormalDetail from "../../styles/tab/newnormaldetail";
+
 
 export class NewNormalScreenDetail extends Component {
   render() {
@@ -18,6 +19,7 @@ export class NewNormalScreenDetail extends Component {
         <ScrollView horizontal={true} pagingEnabled={true} showsHorizontalScrollIndicator={true}>
           <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth, }}>
             <ScrollView>
+            
             <View style={NewNormalDetail.topblock}>
               <Text style={NewNormalDetail.toptext}><Octicons name="checklist" size={22}/> การเตรียมตัวก่อนออกจากบ้าน</Text>
             </View>
@@ -55,6 +57,7 @@ export class NewNormalScreenDetail extends Component {
               <View style={NewNormalDetail.image2}>
               <Image style={NewNormalDetail.imagedetail} source={IMAGE.IMAGE_AVATAR4} resizeMode='contain'/>
               </View>
+              
             </View>
             </ScrollView>
           </View>

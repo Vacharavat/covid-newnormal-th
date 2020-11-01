@@ -28,8 +28,14 @@ const DrawerStyles = StyleSheet.create({
     color: Color.white,
     alignContent: "center",
   },
-  block: {
+  blockcovid: {
     height: 100,
+    margin: 10,
+    borderRadius: 10,
+    flexDirection: "row",
+  },
+  block: {
+    //height: 100,
     margin: 10,
     borderRadius: 10,
     flexDirection: "row",
@@ -60,6 +66,7 @@ const DrawerStyles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     alignContent: "center",
+    height:100
     
   },
   detail2: {

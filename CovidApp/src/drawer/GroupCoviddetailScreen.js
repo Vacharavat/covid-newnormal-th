@@ -16,7 +16,7 @@ export class GroupCoviddetailScreen extends Component {
         <View style={DrawerStyles.topblock}>
               <Text style={DrawerStyles.toptext}>กลุ่มเสี่ยงต่ำ</Text>
             </View>
-            <View style={DrawerStyles.block}>
+            <View style={DrawerStyles.blockcovid}>
               <View style={DrawerStyles.image}>
               <Image style={DrawerStyles.imagedetail} source={IMAGE.IMAGE_LOW} resizeMode='contain'/>
               </View>
@@ -29,7 +29,7 @@ export class GroupCoviddetailScreen extends Component {
             <View style={DrawerStyles.topblock}>
               <Text style={DrawerStyles.toptext}>กลุ่มเสี่ยงสูง</Text>
             </View>
-            <View style={DrawerStyles.block}>
+            <View style={DrawerStyles.blockcovid}>
               <View style={DrawerStyles.detail2}>
                 <Text style={DrawerStyles.subdetail}>"ความเสี่ยงต่ออาการรุนแรง ของโรคเพิ่มขึ้นตามอายุ และในผู้ที่
                   มีโรคประจําตัว"</Text>
