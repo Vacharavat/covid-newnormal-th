@@ -544,4 +544,12 @@ export default data = [
     image: IMAGE.IMAGE_MKM,
     name: "มหาสารคาม (Maha Sarakham)",
   },
+  {
+    id: 88,
+    province: "Bangkok",
+    latitude: 13.759957,
+    longitude: 100.552297,
+    image: IMAGE.IMAGE_ฺฺBKK,
+    name: "กรุงเทพมหานคร (Bangkok)",
+  }
 ];

@@ -82,7 +82,7 @@ export class HomeScreen extends Component {
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtHospitalized}>Hospitalized</Text>
               <Text style={HomeStyles.txtstats}>{this.state.hospitalized}</Text>
-              <Text style={HomeStyles.subtxtstats}>(+{this.state.newhospitalized})</Text>
+              <Text style={HomeStyles.subtxtstats}>({this.state.newhospitalized})</Text>
             </View>
             {/* Deaths Block */}
             <View style={HomeStyles.statblock}>

@@ -1,22 +1,15 @@
 import * as React from 'react';
 import { Image } from 'react-native';
-
 import { NavigationContainer } from '@react-navigation/native';
-
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-//import { SafeAreaView } from 'react-native-safe-area-context';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-
 import { CustomHeader, CustonDrawerContent} from './src';
-
-import {HomeScreen, HomeScreenDetail, MapsScreen, MapsScreenDetail, NewNormalScreen,
+import {HomeScreen, HomeScreenDetail, MapsScreen, NewNormalScreen,
   NewNormalScreenDetail, NewNormalScreenDetail2, NewNormalScreenDetail3, InfoScreen, InfoScreenDetail ,InfoScreenDetail2,InfoScreenDetail3, SymptompsScreenDetail, PreventionsScreenDetail} from './src/tab'
-
 import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, TransCoviddetailScreen,LookCoviddetailScreen,
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
   EffectCoviddetailScreen} from './src/drawer';
-
 import {IMAGE} from './src/constants/image';
 
 // Bottom
@@ -45,7 +38,7 @@ function MapsStack(){
   return(
     <StackMaps.Navigator initialRouteName="Maps">
       <StackMaps.Screen name="Maps" component= {MapsScreen} options={navOptionHandler}/>
-      <StackMaps.Screen name="MapsDetail" component= {MapsScreenDetail} options={navOptionHandler}/>
+      {/* <StackMaps.Screen name="MapsDetail" component= {MapsScreenDetail} options={navOptionHandler}/> */}
     </StackMaps.Navigator>
   );
 }
