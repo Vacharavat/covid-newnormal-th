@@ -1,20 +1,18 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
-### อักษรย่อ
-- https://th.wikipedia.org/wiki/รายชื่ออักษรย่อของจังหวัดในประเทศไทย
+
 ### UI Covid App
 - https://x7x7x8.axshare.com
-### Background
-- https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ (IOS COLOR)
-### PHASE 1 (11 OCT 2020)
 
-| MEMBER | TASK | FOLDER GITHUB |
-| ----------- | ----------- | ----------- |
-| SEEN      | Symptomps Page | Seen/1 |
-| FOURTH   | Covid Page | Fourth/1 |
-| JAY   | Proventions Page | Jay/1 |
+### GROUP MEMBER
 
-***Note :*** แต่ละ Folder ไม่มีตัว note_module 
+| FULL NAME | STUDENT ID |
+| ----------- | ----------- |
+| กฤตนัย พหนการ      | 61070003 |
+| ศิรวิทย์ โบศรี  | 61070220|
+| สิรภพ   | 61070xxx |
+
+***Note :*** ไม่มีตัว note_module 
 ### Google Drive
 - https://drive.google.com/drive/folders/19fjpLfmm55TtXsiV9Ex56YwJNA12GHlo?usp=sharing
 ### Reference
@@ -30,3 +28,7 @@
     - https://covid19.ddc.moph.go.th/th/self_screening
 - ภาพประกอบแอพ PNG
     - https://pngtree.com/so/covid-19
+- อักษรย่อ
+    - https://th.wikipedia.org/wiki/รายชื่ออักษรย่อของจังหวัดในประเทศไทย
+- Background
+    - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ (IOS COLOR)
