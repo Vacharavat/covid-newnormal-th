@@ -1,7 +1,7 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
 
-### UI Covid App
+### UI Covid App Demo
 - https://x7x7x8.axshare.com
 
 ### GROUP MEMBER
