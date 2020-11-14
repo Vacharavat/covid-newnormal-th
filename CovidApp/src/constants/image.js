@@ -211,5 +211,8 @@ const IMAGE = {
     IMAGE_ฺฺWHAT : require('../image/question.png'),
     IMAGE_ฺฺCOVID : require('../image/covid-19.png'),
     IMAGE_CALENDAR :require('../image/calendar.png'),
+
+    //global
+    IMAGE_GLOBAL:require('../image/global.jpg'),
 }
 export {IMAGE}

@@ -15,7 +15,7 @@ export class NewNormalScreenDetail2 extends Component {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: "#56939f" }}>
         <Status />
-        <CustomHeader title="New Normal" navigation={this.props.navigation} />
+        <CustomHeader title="Details" navigation={this.props.navigation} />
         <ScrollView horizontal={true} pagingEnabled={true} showsHorizontalScrollIndicator={true}>
           <View style={{ backgroundColor: "#92c0c8", flex: 1, width: screenWidth, }}>
             <ScrollView>

@@ -30,7 +30,7 @@ export class HomeScreenDetail extends Component {
             <Card.Divider/>
             <Text><Entypo name="calendar" size={20} color={Color.red} /> วันที่ตรวจพบ : {casedata.item.ConfirmDate}</Text>
             <Text><MaterialCommunityIcons name="gender-male-female" size={20} color={Color.skyblue} /> เพศ : {casedata.item.Gender}</Text>
-            <Text><Ionicons name="md-people" size={20} color="black" />  สัญชาติ : {casedata.item.Nation}</Text>
+            <Text><Ionicons name="md-people" size={20} color={Color.darkpurple} />  สัญชาติ : {casedata.item.Nation}</Text>
             <Text><FontAwesome name="map-pin" size={20} color={Color.gray} />   สถานที่ : {casedata.item.District} {casedata.item.Province} </Text>
           </Card>
       </View>

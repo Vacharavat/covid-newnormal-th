@@ -4,6 +4,8 @@ export * from './Home/SymptompsScreenDetail'
 export * from './Home/PreventionsScreenDetail'
 
 export * from './Map/MapsScreen'
+export * from './Map/ReportScreen'
+export * from './Map/NewScreen'
 
 
 export * from './NewNormal/NewNormalScreen'

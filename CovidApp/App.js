@@ -6,11 +6,15 @@ import {createStackNavigator} from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { CustomHeader, CustonDrawerContent} from './src';
 import {HomeScreen, HomeScreenDetail, MapsScreen, NewNormalScreen,
-  NewNormalScreenDetail, NewNormalScreenDetail2, NewNormalScreenDetail3, InfoScreen, InfoScreenDetail ,InfoScreenDetail2,InfoScreenDetail3, SymptompsScreenDetail, PreventionsScreenDetail} from './src/tab'
+  NewNormalScreenDetail, NewNormalScreenDetail2, NewNormalScreenDetail3, InfoScreen, InfoScreenDetail ,InfoScreenDetail2,InfoScreenDetail3, SymptompsScreenDetail, PreventionsScreenDetail,ReportScreen, NewScreen} from './src/tab'
 import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, TransCoviddetailScreen,LookCoviddetailScreen,
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
   EffectCoviddetailScreen} from './src/drawer';
 import {IMAGE} from './src/constants/image';
+import { LogBox } from 'react-native';
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+LogBox.ignoreAllLogs();//Ignore all log notifications
+
 
 // Bottom
 const Tab = createBottomTabNavigator();
@@ -38,7 +42,8 @@ function MapsStack(){
   return(
     <StackMaps.Navigator initialRouteName="Maps">
       <StackMaps.Screen name="Maps" component= {MapsScreen} options={navOptionHandler}/>
-      {/* <StackMaps.Screen name="MapsDetail" component= {MapsScreenDetail} options={navOptionHandler}/> */}
+      <StackMaps.Screen name="Report" component= {ReportScreen} options={navOptionHandler}/>
+      <StackMaps.Screen name="News" component= {NewScreen} options={navOptionHandler}/>
     </StackMaps.Navigator>
   );
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Linking, Text, View, SafeAreaView, TouchableOpacity, ScrollView, ImageBackground, StyleSheet,} from "react-native";
+import { Linking, Text, View, SafeAreaView, TouchableOpacity, ScrollView, ImageBackground,} from "react-native";
 import { IMAGE } from "../../constants/image";
 import { CustomHeader } from "../../index";
 import Status from "../../Status";
@@ -12,8 +12,8 @@ export class NewNormalScreen extends Component {
       <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
         <Status />
         <CustomHeader title="New Normal" isHome={true} navigation={this.props.navigation}/>
-        <ScrollView >
-          <View style={{ flex: 1, alignItems: "center", backgroundColor: Color.secondary,}}>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View style={{ flex: 1, alignItems: "center",}}>
             <TouchableOpacity style={NewNormalStyle.box} onPress={() => this.props.navigation.navigate("NewNormalDetail")}>
               <ImageBackground source={IMAGE.IMAGE_HOME} style={NewNormalStyle.image}/>
               <View style={NewNormalStyle.detail}>

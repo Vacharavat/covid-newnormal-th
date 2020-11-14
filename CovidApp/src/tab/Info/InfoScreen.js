@@ -33,6 +33,7 @@ export class InfoScreen extends Component {
                 <Text style={InfoStyle.text}>THAICHANA</Text>
               </View>
             </TouchableOpacity>
+
           </View>
         </ScrollView>
       </SafeAreaView>

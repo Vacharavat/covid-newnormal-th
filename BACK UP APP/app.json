@@ -1,0 +1,20 @@
+{
+  "name": "COVID-19 TH",
+  "displayName": "COVID-19 NEW NORMAL TH",
+  "platforms": ["ios", "android"],
+  "expo": {
+    "name": "COVID-19 TH",
+    "slug": "COVID-19_NEW_NORMAL_TH",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B7B7FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
