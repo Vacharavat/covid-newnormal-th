@@ -106,7 +106,7 @@ export class Gender extends Component {
                 color: Color.gray,
               }}
             >
-              {this.state.male} คน ({mal}%)
+              {Intl.NumberFormat('en-IN', { maximumSignificantDigits: 20 }).format(this.state.male)} คน ({mal}%)
             </Text>
           </View>
           <View
@@ -138,7 +138,7 @@ export class Gender extends Component {
                 color: Color.gray,
               }}
             >
-              {this.state.female} คน ({femal}%)
+              {Intl.NumberFormat('en-IN', { maximumSignificantDigits: 20 }).format(this.state.female)} คน ({femal}%)
             </Text>
           </View>
         </View>

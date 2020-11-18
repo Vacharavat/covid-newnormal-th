@@ -64,7 +64,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.confirmedglobal} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.confirmedglobal)} คน
               </Text>
             </View>
           </View>
@@ -101,7 +101,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.recoveredglobal} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.recoveredglobal)} คน
               </Text>
             </View>
           </View>
@@ -138,7 +138,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.deathglobal} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.deathglobal)} คน
               </Text>
             </View>
           </View>

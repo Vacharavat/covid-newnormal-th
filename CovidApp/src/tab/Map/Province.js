@@ -51,7 +51,7 @@ export class Province extends Component {
             width={Dimensions.get('window').width-60}
             height={180}
             // yAxisLabel={'Rs'}
-            yAxisSuffix=" ราย"
+            yAxisSuffix=" คน"
             chartConfig={{
               backgroundColor: "#1cc910",
               backgroundGradientFrom: Color.primary,
@@ -99,7 +99,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.bangkok} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.bangkok)} คน
               </Text>
             </View>
           </View>
@@ -135,7 +135,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.chonburi} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.chonburi)} คน
               </Text>
             </View>
           </View>
@@ -171,7 +171,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {this.state.phuket} คน
+                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.phuket)} คน
               </Text>
             </View>
           </View>

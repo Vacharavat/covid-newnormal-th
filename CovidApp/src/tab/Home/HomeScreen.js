@@ -66,13 +66,13 @@ export class HomeScreen extends Component {
             {/* Comfirm Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtconfirm}>Confirmed</Text>
-              <Text style={HomeStyles.txtstats}>{this.state.confirmed}</Text>
+              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.confirmed)}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newconfirmed})</Text>
             </View>
             {/* Recovered Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtrecovered}>Recovered</Text>
-              <Text style={HomeStyles.txtstats}>{this.state.recovered}</Text>
+              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.recovered)}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newrecovered})</Text>
             </View>
           </View>
@@ -81,13 +81,13 @@ export class HomeScreen extends Component {
             {/* Hopitalized Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtHospitalized}>Hospitalized</Text>
-              <Text style={HomeStyles.txtstats}>{this.state.hospitalized}</Text>
+              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.hospitalized)}</Text>
               <Text style={HomeStyles.subtxtstats}>({this.state.newhospitalized})</Text>
             </View>
             {/* Deaths Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtDeath}>Deaths</Text>
-              <Text style={HomeStyles.txtstats}>{this.state.death}</Text>
+              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.death)}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newdeath})</Text>
             </View>
           </View>
