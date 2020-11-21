@@ -13,7 +13,7 @@ export class ReportScreen extends Component {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
         <Status />
-        <CustomHeader title="Report Detail" navigation={this.props.navigation}/>
+        <CustomHeader title="Report" navigation={this.props.navigation}/>
         <View style={{flex:1,backgroundColor:Color.secondary}}>
           <ScrollView>
             <GlobalReport/>

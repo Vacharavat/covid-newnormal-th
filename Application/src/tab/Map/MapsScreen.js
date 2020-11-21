@@ -5,7 +5,7 @@ import Status from "../../Status";
 import MapView, { Marker, Callout } from "react-native-maps";
 import Color from "../../constants/colors";
 import axios from "axios";
-import { FontAwesome5, Ionicons, FontAwesome } from "@expo/vector-icons";
+import { FontAwesome5, FontAwesome } from "@expo/vector-icons";
 import datas from "../../data/data_map";
 import data2 from "../../data/data_hospital";
 import MapStyles from "../../styles/tab/mapstyles";
@@ -85,8 +85,8 @@ export class MapsScreen extends Component {
                   <Text style={MapStyles.name}>
                     <FontAwesome5 name="map-marker-alt" size={24} color="red"/>{" "}{this.state.data2[i].name}
                   </Text>
-                  <Text>ค่าตรวจเชื้อหาไวรัส : {this.state.data2[i].price}</Text>
-                  <Text>สถานที่ : {this.state.data2[i].detail} </Text>
+                  <Text><Text style={{fontWeight:'bold'}}>ค่าตรวจเชื้อหาไวรัส :</Text> {this.state.data2[i].price}</Text>
+                  <Text style={{paddingTop:2}}><Text style={{fontWeight:'bold'}}>สถานที่ :</Text> {this.state.data2[i].detail} </Text>
                   <View style={{ justifyContent: "center", alignItems: "center", margin: 10,}}>
                     <Image style={MapStyles.image} source={this.state.data2[i].image} />
                   </View>
@@ -105,7 +105,7 @@ export class MapsScreen extends Component {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: Color.primary }}>
         <Status />
-        <CustomHeader title="Thailand" isHome={true} navigation={this.props.navigation}/>
+        <CustomHeader title="Maps" isHome={true} navigation={this.props.navigation}/>
         <View style={MapStyles.container}>
           <MapView style={MapStyles.map} initialRegion={{latitude: 13.75,longitude: 100.517,latitudeDelta: 1.5,longitudeDelta: 1.0,}}>
             {this.renderprovince()} 

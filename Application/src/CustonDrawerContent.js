@@ -13,84 +13,84 @@ export class CustonDrawerContent extends Component{
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Menu')}
                 >
-                  <Text style={{color:'white', fontWeight:'bold', fontSize:20}}>MENU</Text>
+                  <Text style={{color:'white', fontWeight:'bold', fontSize:20}}>COVID-19 TH</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('COVID-19')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>COVID-19</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>ที่มาของโรค</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Origin')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>ต้นกำเนิดของไวรัส</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>ต้นกำเนิดของไวรัส</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Event')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>เหตุการณ์ระบาดเป็นวงกว้าง</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>เหตุการณ์ระบาดเป็นวงกว้าง</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Trans')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>การแพร่เชื้อ</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>การแพร่เชื้อ</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Looks')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>ลักษณะจำเพาะโรค</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>ลักษณะจำเพาะโรค</Text>
                 </TouchableOpacity>
                 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Groups')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>กลุ่มเสี่ยงที่จะติดเชื้อ</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>กลุ่มเสี่ยงที่จะติดเชื้อ</Text>
                 </TouchableOpacity>
                 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Correct')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>การตรวจโรค</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>การตรวจโรค</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Heal')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>การรักษาโรค</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>การรักษาโรค</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Measure')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>มาตรการระดับบุคคล</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>มาตรการระดับบุคคล</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Measurepublic')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>มาตรการทางสาธาณะสุข</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>มาตรการทางสาธาณะสุข</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                 style={{marginTop:20}}
                 onPress = {() => this.props.navigation.navigate('Effect')}
                 >
-                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2}}>ผลกระทบทางเศรษฐกิจและสังคม</Text>
+                  <Text style={{color:'white', fontWeight:'normal', fontSize:14, margin:2, paddingLeft:12}}>ผลกระทบทางเศรษฐกิจและสังคม</Text>
                 </TouchableOpacity> 
                 
               </ScrollView>

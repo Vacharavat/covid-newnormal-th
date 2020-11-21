@@ -9,7 +9,7 @@ export class NewScreen extends Component {
     return (
       <SafeAreaView style={{ flex: 1,backgroundColor: "rgb(35,181,116)"  }}>
         <Status/>
-        <CustomHeader title="Kapook!" navigation={this.props.navigation} />
+        <CustomHeader title="News" navigation={this.props.navigation} />
         <WebView source={{ uri: 'https://covid-19.kapook.com/news'}}/>
       </SafeAreaView>
     );

@@ -11,6 +11,7 @@ import {CoviddetailScreen, OriginCoviddetailScreen, EventCoviddetailScreen, Tran
   GroupCoviddetailScreen, CorrectCoviddetailScreen,HealCoviddetailScreen, MeasureCoviddetailScreen, MeasurePublicCoviddetailScreen,
   EffectCoviddetailScreen} from './src/drawer';
 import {IMAGE} from './src/constants/image';
+// Hide Warning
 import { LogBox } from 'react-native';
 LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
 LogBox.ignoreAllLogs();//Ignore all log notifications

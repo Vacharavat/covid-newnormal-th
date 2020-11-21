@@ -42,7 +42,7 @@ export class HomeScreen extends Component {
         <Status />
         <CustomHeader title="Home" isHome={true} navigation={this.props.navigation}/>
         <View style={HomeStyles.container}>
-        <ScrollView>
+        
         {/* Top Page */}
           <View style={HomeStyles.topblock}>
             <Text style={HomeStyles.welcome}>WELCOME TO</Text>
@@ -61,6 +61,7 @@ export class HomeScreen extends Component {
               </View>
             </View>
           </View>
+          <ScrollView>
           {/* Statistic block1 */}
           <View style={HomeStyles.bigstatblock}>
             {/* Comfirm Block */}
