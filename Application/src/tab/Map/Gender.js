@@ -5,6 +5,8 @@ import axios from "axios";
 import { Card } from "react-native-elements";
 import { PieChart } from "react-native-chart-kit";
 import { FontAwesome } from "@expo/vector-icons";
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 
 export class Gender extends Component {
   state = {
@@ -106,7 +108,7 @@ export class Gender extends Component {
                 color: Color.gray,
               }}
             >
-              {Intl.NumberFormat('en-IN', { maximumSignificantDigits: 20 }).format(this.state.male)} คน ({mal}%)
+              {Number(this.state.male).toLocaleString('en')} คน ({mal}%)
             </Text>
           </View>
           <View
@@ -138,7 +140,7 @@ export class Gender extends Component {
                 color: Color.gray,
               }}
             >
-              {Intl.NumberFormat('en-IN', { maximumSignificantDigits: 20 }).format(this.state.female)} คน ({femal}%)
+              {Number(this.state.female).toLocaleString('en')} คน ({femal}%)
             </Text>
           </View>
         </View>

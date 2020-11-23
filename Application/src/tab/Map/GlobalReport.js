@@ -3,6 +3,8 @@ import { Text, View } from "react-native";
 import Color from "../../constants/colors";
 import axios from "axios";
 import { Card } from "react-native-elements";
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 
 export class GlobalReport extends Component {
   state = {
@@ -64,7 +66,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.confirmedglobal)} คน
+                {Number(this.state.confirmedglobal).toLocaleString('en')} คน
               </Text>
             </View>
           </View>
@@ -101,7 +103,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.recoveredglobal)} คน
+                {Number(this.state.recoveredglobal).toLocaleString('en')} คน
               </Text>
             </View>
           </View>
@@ -138,7 +140,7 @@ export class GlobalReport extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.deathglobal)} คน
+                {Number(this.state.deathglobal).toLocaleString('en')} คน
               </Text>
             </View>
           </View>

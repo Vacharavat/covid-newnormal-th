@@ -8,7 +8,7 @@ export class CustomHeader extends Component {
     let { navigation, isHome, title } = this.props;
 
     return (
-      <View style={{ flexDirection: "row", height: 50, marginTop:10}}>
+      <View style={{ flexDirection: "row", height: 50}}>
         <View style={{ flex: 1, justifyContent: "center" }}>
           {isHome ? (
             <TouchableOpacity onPress={() => navigation.openDrawer()}>

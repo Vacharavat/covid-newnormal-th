@@ -4,6 +4,8 @@ import Color from "../../constants/colors";
 import axios from "axios";
 import { Card } from "react-native-elements";
 import { BarChart } from "react-native-chart-kit";
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 export class Province extends Component {
   state = {
     bangkok: "0",
@@ -99,7 +101,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.bangkok)} คน
+                {Number(this.state.bangkok).toLocaleString('en')} คน
               </Text>
             </View>
           </View>
@@ -135,7 +137,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.chonburi)} คน
+                {Number(this.state.chonburi).toLocaleString('en')} คน
               </Text>
             </View>
           </View>
@@ -171,7 +173,7 @@ export class Province extends Component {
                   paddingRight: 10,
                 }}
               >
-                {Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.phuket)} คน
+                {Number(this.state.phuket).toLocaleString('en')} คน
               </Text>
             </View>
           </View>

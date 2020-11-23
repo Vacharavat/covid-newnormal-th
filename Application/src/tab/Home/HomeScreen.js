@@ -7,6 +7,8 @@ import { AntDesign } from '@expo/vector-icons';
 import HomeStyles from "../../styles/tab/homestyle";
 import MainPreventions from "../../components/MainPreventions";
 import MainSymptomps from "../../components/MainSymptomps";
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 export class HomeScreen extends Component {
   
   state = {
@@ -67,13 +69,13 @@ export class HomeScreen extends Component {
             {/* Comfirm Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtconfirm}>Confirmed</Text>
-              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.confirmed)}</Text>
+              <Text style={HomeStyles.txtstats}>{Number(this.state.confirmed).toLocaleString('en')}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newconfirmed})</Text>
             </View>
             {/* Recovered Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtrecovered}>Recovered</Text>
-              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.recovered)}</Text>
+              <Text style={HomeStyles.txtstats}>{Number(this.state.recovered).toLocaleString('en')}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newrecovered})</Text>
             </View>
           </View>
@@ -82,13 +84,13 @@ export class HomeScreen extends Component {
             {/* Hopitalized Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtHospitalized}>Hospitalized</Text>
-              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.hospitalized)}</Text>
+              <Text style={HomeStyles.txtstats}>{Number(this.state.hospitalized).toLocaleString('en')}</Text>
               <Text style={HomeStyles.subtxtstats}>({this.state.newhospitalized})</Text>
             </View>
             {/* Deaths Block */}
             <View style={HomeStyles.statblock}>
               <Text style={HomeStyles.txtDeath}>Deaths</Text>
-              <Text style={HomeStyles.txtstats}>{Intl.NumberFormat('THB', { maximumSignificantDigits: 20 }).format(this.state.death)}</Text>
+              <Text style={HomeStyles.txtstats}>{Number(this.state.death).toLocaleString('en')}</Text>
               <Text style={HomeStyles.subtxtstats}>(+{this.state.newdeath})</Text>
             </View>
           </View>
