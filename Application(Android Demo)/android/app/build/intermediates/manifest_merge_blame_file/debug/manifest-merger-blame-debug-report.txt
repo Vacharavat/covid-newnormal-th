@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.covidth"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:5:3-72
+13-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:6:3-71
+14-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:6:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:7:3-69
+15-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:7:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:8:3-63
+16-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:8:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+17-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:9:3-77
+17-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:9:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:11:3-78
+18-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:11:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:12:3-76
+19-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:12:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:13:3-82
+20-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:13:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:14:3-62
+21-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:14:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:15:3-68
+22-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:15:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:16:3-69
+23-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:16:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:17:3-70
+24-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:17:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:18:3-69
+25-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:18:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:19:3-70
+26-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:19:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:20:3-77
+27-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:20:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:21:3-78
+28-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:21:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:22:3-70
+29-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:22:20-68
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:expo-updates] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+31-->[:expo-updates] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[:expo-location] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-77
+32-->[:expo-location] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-74
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+37
+38    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+38-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+38-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+39    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+39-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+39-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+40
+41    <application
+41-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:27:3-51:17
+42        android:name="com.covidth.MainApplication"
+42-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:28:5-36
+43        android:allowBackup="false"
+43-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:32:5-32
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.5.0-alpha05] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\1e50be0439aeebba7dc1a379ee7ea9e9\core-1.5.0-alpha05\AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:30:5-39
+47        android:label="@string/app_name"
+47-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:29:5-37
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:31:5-50
+49        android:theme="@style/AppTheme"
+49-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:33:5-36
+50        android:usesCleartextTraffic="true" >
+50-->C:\Users\SeenKTN\Desktop\Application\android\app\src\debug\AndroidManifest.xml:6:18-53
+51        <meta-data
+51-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:35:5-103
+52            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+52-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:35:16-67
+53            android:value="YOUR-APP-URL-HERE" />
+53-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:35:68-101
+54        <meta-data
+54-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:36:5-112
+55            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+55-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:36:16-68
+56            android:value="YOUR-APP-SDK-VERSION-HERE" />
+56-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:36:69-110
+57
+58        <activity
+58-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:37:5-49:16
+59            android:name="com.covidth.MainActivity"
+59-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:38:7-35
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+60-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:40:7-84
+61            android:label="@string/app_name"
+61-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:39:7-39
+62            android:launchMode="singleTask"
+62-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:41:7-38
+63            android:theme="@style/Theme.App.SplashScreen"
+63-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:43:7-52
+64            android:windowSoftInputMode="adjustResize" >
+64-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:42:7-49
+65            <intent-filter>
+65-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:45:7-48:23
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:46:9-60
+66-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:46:17-58
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:47:9-68
+68-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:47:19-66
+69            </intent-filter>
+70        </activity>
+71        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+71-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:50:5-81
+71-->C:\Users\SeenKTN\Desktop\Application\android\app\src\main\AndroidManifest.xml:50:15-79
+72
+73        <meta-data
+73-->[:unimodules-react-native-adapter] C:\Users\SeenKTN\Desktop\Application\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+74            android:name="org.unimodules.core.AppLoader#react-native-headless"
+74-->[:unimodules-react-native-adapter] C:\Users\SeenKTN\Desktop\Application\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+75            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+75-->[:unimodules-react-native-adapter] C:\Users\SeenKTN\Desktop\Application\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+76
+77        <provider
+77-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+78            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+78-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+79            android:authorities="com.covidth.fileprovider"
+79-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+80            android:exported="false"
+80-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+81            android:grantUriPermissions="true" >
+81-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+82            <meta-data
+82-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+84                android:resource="@xml/file_provider_paths" />
+84-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+85        </provider>
+86        <provider
+86-->[:expo-file-system] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+87            android:name="expo.modules.filesystem.FileSystemFileProvider"
+87-->[:expo-file-system] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+88            android:authorities="com.covidth.FileSystemFileProvider"
+88-->[:expo-file-system] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+89            android:exported="false"
+89-->[:expo-file-system] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+90            android:grantUriPermissions="true" >
+90-->[:expo-file-system] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+91            <meta-data
+91-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+93                android:resource="@xml/file_system_provider_paths" />
+93-->[:react-native-webview] C:\Users\SeenKTN\Desktop\Application\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+94        </provider>
+95
+96        <service
+96-->[:expo-location] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-19:40
+97            android:name="expo.modules.location.services.LocationTaskService"
+97-->[:expo-location] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-78
+98            android:exported="false" />
+98-->[:expo-location] C:\Users\SeenKTN\Desktop\Application\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+99        <service
+99-->[androidx.room:room-runtime:2.1.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\5f7132f69994fe4e2c8f322e81b3f8c9\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+100            android:name="androidx.room.MultiInstanceInvalidationService"
+100-->[androidx.room:room-runtime:2.1.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\5f7132f69994fe4e2c8f322e81b3f8c9\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+101            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+101-->[androidx.room:room-runtime:2.1.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\5f7132f69994fe4e2c8f322e81b3f8c9\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+102        <uses-library
+102-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+103            android:name="org.apache.http.legacy"
+103-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+104            android:required="false" />
+104-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\58b653b0c3024e78ee29fa6833294936\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\58b653b0c3024e78ee29fa6833294936\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\58b653b0c3024e78ee29fa6833294936\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+114
+115        <service
+115-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+116            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+116-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+117            android:exported="false" />
+117-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+118        <service
+118-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+119            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+119-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+120            android:exported="false" />
+120-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+121        <service
+121-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+122            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+122-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+123            android:exported="false" />
+123-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\SeenKTN\.gradle\caches\transforms-2\files-2.1\45d1bd0981b2b73a935297054f5dc374\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+124    </application>
+125
+126</manifest>
