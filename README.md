@@ -1,8 +1,11 @@
 # COVID-19 NEW NORMAL TH
 ## Mobile Device Programming 2020
 
+### Deploy Expo.io
+- https://expo.io/@fourth_edition/projects/COVID-19_TH
+
 ### UI Covid App Demo
-- https://x7x7x8.axshare.com
+- https://x7x7x8.axshare.co
 
 ### GROUP MEMBER
 
@@ -13,8 +16,6 @@
 | สิรภพ รักเกื้อ  | 61070241 |
 
 ***Note :*** ไม่มีตัว note_module 
-### Google Drive
-- https://drive.google.com/drive/folders/19fjpLfmm55TtXsiV9Ex56YwJNA12GHlo?usp=sharing
 ### Reference
 - API COVID-19 THAILAND
     - https://covid19.ddc.moph.go.th/en/api
